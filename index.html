@@ -1,0 +1,30 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BitGods B019</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="app">
+<header><b>BITGODS</b><span id="status">B019 Runtime Client</span></header>
+<main>
+<canvas id="game" width="960" height="576"></canvas>
+<aside>
+<h2>INSPECTOR</h2><pre id="inspect">Move with WASD / arrows.</pre>
+<h2>INVENTORY</h2><div id="inventory"></div>
+<h2>EVENTS</h2><div id="events"></div>
+</aside>
+</main>
+<footer>
+<button id="pause">Pause</button><button id="step">Step</button>
+<button id="gather">Gather</button><button id="craft">Cell Craft</button>
+<button id="save">Save</button><button id="load">Load</button>
+<span>Seed: BG-B019-001</span>
+<button onclick="BITGODS_B028.setMode('avatar')">Avatar</button>
+<button onclick="BITGODS_B028.setMode('architect')">Architect</button>
+<button onclick="BITGODS_B028.setMode('god')">God</button>
+<button onclick="console.log(BITGODS_B028.scanDNA('selected'))">DNA Scan</button>
+<button onclick="console.log(BITGODS_B028.fork('branch-'+Date.now()))">Fork Timeline</button>
+<button onclick="BITGODS_B029.setOverlay('trade')">Trade Overlay</button>
+<button onclick="BITGODS_B029.setOverlay('political')">Political Overlay</button>
+<button onclick="BITGODS_B029.setOverlay('none')">Clear Overlay</button>
+<button onclick="BITGODS_B029.triggerConflict()">Conflict Test</button>
+</footer>
+</div><script src="b029_canvas.js"></script><script src="b031_scale.js"></script><script src="game.js"></script><script src="b020_systems.js"></script><script src="b021_settlement.js"></script><script src="b028_unified.js"></script></body></html>

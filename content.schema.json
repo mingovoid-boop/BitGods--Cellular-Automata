@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BitGods Content Record",
+  "type": "object",
+  "required": ["id", "type", "name", "version", "status", "tags", "provenance"],
+  "properties": {
+    "id": {"type": "string", "minLength": 3},
+    "type": {"type": "string"},
+    "name": {"type": "string"},
+    "version": {"type": "integer", "minimum": 1},
+    "status": {"enum": ["draft", "validated", "approved", "deprecated"]},
+    "tags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "provenance": {"type": "object", "required": ["source"], "properties": {"source": {"type": "string"}, "seed": {"type": ["string", "integer"]}}},
+    "visualDNA": {"type": "object"},
+    "simulation": {"type": "object"},
+    "gameplay": {"type": "object"}
+  },
+  "additionalProperties": true
+}

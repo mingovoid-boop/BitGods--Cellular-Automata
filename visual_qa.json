@@ -1,0 +1,33 @@
+{
+  "viewports": [
+    [
+      1280,
+      720
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      2560,
+      1440
+    ]
+  ],
+  "checks": [
+    "bounds",
+    "text_overlap",
+    "safe_area",
+    "integer_pixel_scale",
+    "missing_sprite",
+    "missing_animation",
+    "contrast_cue_redundancy"
+  ],
+  "scenes": [
+    "main_menu",
+    "game_hud",
+    "cellular_table",
+    "codex",
+    "world_map",
+    "god_mode"
+  ]
+}

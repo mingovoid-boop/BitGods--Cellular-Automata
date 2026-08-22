@@ -1,0 +1,35 @@
+{
+  "screens": [
+    "boot",
+    "main_menu",
+    "world_create",
+    "save_select",
+    "game_hud",
+    "inventory",
+    "cellular_table",
+    "codex",
+    "world_map",
+    "civilization",
+    "technology",
+    "god_mode",
+    "settings",
+    "pause"
+  ],
+  "hud": {
+    "simulation_controls": [
+      "pause",
+      "play",
+      "step",
+      "2x",
+      "4x"
+    ],
+    "context_inspector": true,
+    "event_feed": true
+  },
+  "rules": [
+    "simulation truth never owned by UI",
+    "no text-overlap at supported viewports",
+    "keyboard/controller focus visible",
+    "tooltips cannot cover critical action targets"
+  ]
+}

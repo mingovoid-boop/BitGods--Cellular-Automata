@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BitGods Event",
+  "type": "object",
+  "required": ["id", "type", "tick"],
+  "properties": {
+    "id": {"type": "string"}, "type": {"type": "string"}, "tick": {"type": "integer", "minimum": 0},
+    "actor": {"type": ["string", "null"]}, "target": {"type": ["string", "null"]},
+    "cause": {"type": ["string", "null"]}, "position": {"type": ["object", "null"]}, "payload": {"type": "object"}
+  },
+  "additionalProperties": false
+}

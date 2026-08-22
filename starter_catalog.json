@@ -1,0 +1,12 @@
+{
+  "bundle": "starter-v1",
+  "records": [
+    {"id":"mat.wood.oak","type":"material","name":"Oak Wood","version":1,"status":"validated","tags":["organic","structural","fuel"],"provenance":{"source":"curated"}},
+    {"id":"mat.iron","type":"material","name":"Iron","version":1,"status":"validated","tags":["metal","structural","conductive"],"provenance":{"source":"curated"}},
+    {"id":"machine.campfire","type":"machine","name":"Campfire","version":1,"status":"validated","tags":["heat","light","primitive"],"provenance":{"source":"curated"}},
+    {"id":"machine.waterwheel","type":"machine","name":"Waterwheel","version":1,"status":"validated","tags":["mechanical","hydro"],"provenance":{"source":"curated"}},
+    {"id":"tool.dna_reader","type":"tool","name":"DNA Reader","version":1,"status":"draft","tags":["biology","scanner"],"provenance":{"source":"design"}},
+    {"id":"tool.dna_writer","type":"tool","name":"DNA Writer","version":1,"status":"draft","tags":["biology","engineering"],"provenance":{"source":"design"}},
+    {"id":"lab.quantum","type":"structure","name":"Quantum Field Lab","version":1,"status":"draft","tags":["physics","late-game"],"provenance":{"source":"design"}}
+  ]
+}

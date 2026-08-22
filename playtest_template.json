@@ -1,0 +1,28 @@
+{
+  "session": {
+    "duration_minutes": 0,
+    "world_seed": "",
+    "browser": "",
+    "device": ""
+  },
+  "performance": {
+    "avg_fps": null,
+    "worst_fps": null,
+    "stutters": 0
+  },
+  "play": {
+    "gathers": 0,
+    "crafts": 0,
+    "combat_events": 0,
+    "loot_events": 0,
+    "saves": 0,
+    "loads": 0,
+    "timeline_forks": 0
+  },
+  "experience": {
+    "confusing_moments": [],
+    "fun_moments": [],
+    "boring_moments": [],
+    "wanted_actions": []
+  }
+}

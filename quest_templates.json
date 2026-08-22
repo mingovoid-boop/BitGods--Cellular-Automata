@@ -1,0 +1,12 @@
+[
+  {
+    "id": "quest.repair_infrastructure",
+    "problem": "infrastructure_failure",
+    "success": "desired_world_state_restored"
+  },
+  {
+    "id": "quest.recover_knowledge",
+    "problem": "knowledge_loss",
+    "success": "knowledge_reconstructed"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "creature.marsh_grazer",
+    "name": "Marsh Grazer",
+    "diet": "herbivore",
+    "traits": {
+      "speed": 0.55,
+      "vision": 0.48,
+      "sociality": 0.78
+    }
+  },
+  {
+    "id": "creature.ridge_stalker",
+    "name": "Ridge Stalker",
+    "diet": "predator",
+    "traits": {
+      "speed": 0.72,
+      "vision": 0.81,
+      "sociality": 0.31
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gene.cold_tolerance",
+    "name": "Cold Tolerance",
+    "domain": "biology",
+    "effects": {
+      "temperature_min": -0.15
+    }
+  },
+  {
+    "id": "gene.water_efficiency",
+    "name": "Water Efficiency",
+    "domain": "biology",
+    "effects": {
+      "water_cost_multiplier": 0.85
+    }
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "item.ancient_blueprint",
+    "name": "Ancient Blueprint Fragment",
+    "category": "knowledge",
+    "rarity": "relic",
+    "provenance": true
+  }
+]

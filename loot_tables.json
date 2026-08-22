@@ -1,0 +1,16 @@
+[
+  {
+    "id": "loot.ruin_basic",
+    "rolls": 2,
+    "entries": [
+      {
+        "ref": "mat.metal.copper",
+        "weight": 40
+      },
+      {
+        "ref": "item.ancient_blueprint",
+        "weight": 5
+      }
+    ]
+  }
+]

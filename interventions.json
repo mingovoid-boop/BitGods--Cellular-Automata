@@ -1,0 +1,48 @@
+[
+  {
+    "id": "god.rain_influence",
+    "targets": [
+      "region"
+    ],
+    "cost_model": "influence",
+    "consequences": [
+      "reservoir_change",
+      "flood_risk"
+    ]
+  },
+  {
+    "id": "god.resource_pressure",
+    "targets": [
+      "cell",
+      "region"
+    ],
+    "cost_model": "influence",
+    "consequences": [
+      "economy",
+      "migration",
+      "conflict"
+    ]
+  },
+  {
+    "id": "god.protection",
+    "targets": [
+      "species",
+      "settlement"
+    ],
+    "cost_model": "influence",
+    "consequences": [
+      "selection_pressure",
+      "politics"
+    ]
+  },
+  {
+    "id": "god.time_acceleration",
+    "targets": [
+      "world"
+    ],
+    "cost_model": "none_sandbox",
+    "consequences": [
+      "lod_shift"
+    ]
+  }
+]

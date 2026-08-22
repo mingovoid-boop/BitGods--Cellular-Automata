@@ -1,0 +1,41 @@
+{
+  "id": "alpha.vertical_slice.001",
+  "version": "0.18.0",
+  "flow": [
+    "boot",
+    "main_menu",
+    "generate_world",
+    "spawn_player",
+    "explore",
+    "inspect",
+    "gather",
+    "cellular_craft",
+    "build_machine",
+    "meet_agent",
+    "world_problem",
+    "resolve_problem",
+    "loot",
+    "apply_consequence",
+    "save",
+    "exit",
+    "reload",
+    "continue"
+  ],
+  "required_state": [
+    "world_seed",
+    "tick",
+    "player",
+    "inventory",
+    "world_cells",
+    "events",
+    "agents",
+    "machines",
+    "quest_state"
+  ],
+  "verification": {
+    "deterministic_seed": true,
+    "save_reload_hash_match": true,
+    "causal_events": true,
+    "simulation_independent_of_rendering": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": "1.1",
+  "rendering": {
+    "filter": "nearest",
+    "integer_scale": true,
+    "tile_px": [
+      32,
+      32
+    ],
+    "ui_grid_px": 8
+  },
+  "silhouette": {
+    "exterior_outline_px": [
+      1,
+      2
+    ],
+    "prefer_near_black": true
+  },
+  "shape_semantics": {
+    "square": "material",
+    "circle": "life",
+    "hexagon": "system",
+    "diamond": "event/energy",
+    "triangle": "danger",
+    "star": "discovery"
+  },
+  "animation": {
+    "strong_pose_priority": true,
+    "default_character_walk_frames": 6
+  },
+  "qa": {
+    "reject_blurred_assets": true,
+    "reject_non_integer_scale": true,
+    "require_safe_bounds": true
+  }
+}

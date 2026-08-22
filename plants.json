@@ -1,0 +1,28 @@
+[
+  {
+    "id": "plant.frostgrass",
+    "name": "Frostgrass",
+    "biomes": [
+      "snow",
+      "grassland"
+    ],
+    "traits": {
+      "cold_tolerance": 0.91,
+      "water_efficiency": 0.64,
+      "growth": 0.45
+    }
+  },
+  {
+    "id": "plant.sunreed",
+    "name": "Sunreed",
+    "biomes": [
+      "wetland",
+      "coast"
+    ],
+    "traits": {
+      "heat_tolerance": 0.77,
+      "water_efficiency": 0.4,
+      "growth": 0.82
+    }
+  }
+]

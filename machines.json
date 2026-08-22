@@ -1,0 +1,45 @@
+[
+  {
+    "id": "machine.waterwheel",
+    "name": "Waterwheel",
+    "inputs": [
+      "fluid_flow"
+    ],
+    "outputs": [
+      "mechanical_energy"
+    ]
+  },
+  {
+    "id": "machine.irrigation_pump",
+    "name": "Irrigation Pump",
+    "inputs": [
+      "energy",
+      "water"
+    ],
+    "outputs": [
+      "water_transport"
+    ]
+  },
+  {
+    "id": "machine.auto_lamp",
+    "name": "Automatic Lamp",
+    "inputs": [
+      "energy",
+      "ambient_light"
+    ],
+    "outputs": [
+      "light"
+    ]
+  },
+  {
+    "id": "machine.primitive_computer",
+    "name": "Primitive Computer",
+    "inputs": [
+      "energy",
+      "signals"
+    ],
+    "outputs": [
+      "computed_signal"
+    ]
+  }
+]

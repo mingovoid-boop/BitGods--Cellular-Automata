@@ -1,0 +1,60 @@
+[
+  {
+    "id": "mat.wood.oak",
+    "name": "Oak Wood",
+    "tags": [
+      "organic",
+      "structural",
+      "fuel"
+    ],
+    "properties": {
+      "density": 0.7,
+      "hardness": 0.32,
+      "conductivity": 0.08,
+      "flammability": 0.86
+    }
+  },
+  {
+    "id": "mat.stone.granite",
+    "name": "Granite",
+    "tags": [
+      "mineral",
+      "structural"
+    ],
+    "properties": {
+      "density": 0.88,
+      "hardness": 0.78,
+      "conductivity": 0.18,
+      "flammability": 0
+    }
+  },
+  {
+    "id": "mat.metal.copper",
+    "name": "Copper",
+    "tags": [
+      "metal",
+      "conductive"
+    ],
+    "properties": {
+      "density": 0.92,
+      "hardness": 0.45,
+      "conductivity": 0.95,
+      "flammability": 0
+    }
+  },
+  {
+    "id": "mat.metal.iron",
+    "name": "Iron",
+    "tags": [
+      "metal",
+      "structural",
+      "magnetic"
+    ],
+    "properties": {
+      "density": 0.9,
+      "hardness": 0.72,
+      "conductivity": 0.62,
+      "flammability": 0
+    }
+  }
+]

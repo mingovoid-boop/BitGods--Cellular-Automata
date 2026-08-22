@@ -1,0 +1,22 @@
+[
+  {
+    "id": "event.discovery",
+    "name": "Discovery Created",
+    "historical": true
+  },
+  {
+    "id": "event.knowledge_lost",
+    "name": "Knowledge Lost",
+    "historical": true
+  },
+  {
+    "id": "event.species_extinct",
+    "name": "Species Extinct",
+    "historical": true
+  },
+  {
+    "id": "event.settlement_founded",
+    "name": "Settlement Founded",
+    "historical": true
+  }
+]

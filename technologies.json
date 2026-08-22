@@ -1,0 +1,40 @@
+[
+  {
+    "id": "tech.controlled_fire",
+    "name": "Controlled Fire",
+    "prerequisites": [],
+    "unlocks": [
+      "structure.campfire"
+    ]
+  },
+  {
+    "id": "tech.cellular_engineering",
+    "name": "Cellular Engineering",
+    "prerequisites": [
+      "tech.controlled_fire"
+    ],
+    "unlocks": [
+      "structure.cell_table"
+    ]
+  },
+  {
+    "id": "tech.genetics_reader",
+    "name": "DNA Reader",
+    "prerequisites": [
+      "tech.cellular_engineering"
+    ],
+    "unlocks": [
+      "capability.read_genome"
+    ]
+  },
+  {
+    "id": "tech.genetics_writer",
+    "name": "DNA Writer",
+    "prerequisites": [
+      "tech.genetics_reader"
+    ],
+    "unlocks": [
+      "capability.edit_genome"
+    ]
+  }
+]

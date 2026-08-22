@@ -1,0 +1,32 @@
+{
+  "version": "0.16.0",
+  "factory": "B016",
+  "catalogs": [
+    "animations/animation_manifest.json",
+    "audio/audio_manifest.json",
+    "biomes/biomes.json",
+    "bosses/bosses.json",
+    "components/components.json",
+    "creatures/creatures.json",
+    "cultures/cultures.json",
+    "events/events.json",
+    "genetics/traits.json",
+    "items/items.json",
+    "loot/loot_tables.json",
+    "machines/machines.json",
+    "materials/materials.json",
+    "names/name_grammar.json",
+    "plants/plants.json",
+    "quests/quest_templates.json",
+    "ruins/ruins.json",
+    "structures/structures.json",
+    "technologies/technologies.json"
+  ],
+  "rules": {
+    "ids_unique": true,
+    "references_resolvable": true,
+    "pixel_dna_required_for_visual_assets": true,
+    "exotic_content_must_be_labeled": true,
+    "provenance_required_for_historical_loot": true
+  }
+}

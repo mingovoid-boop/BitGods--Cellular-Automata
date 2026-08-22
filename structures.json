@@ -1,0 +1,26 @@
+[
+  {
+    "id": "structure.campfire",
+    "name": "Campfire",
+    "requires": [
+      "mat.wood.oak"
+    ],
+    "capabilities": [
+      "heat",
+      "light",
+      "cook"
+    ]
+  },
+  {
+    "id": "structure.cell_table",
+    "name": "Cellular Crafting Table",
+    "requires": [
+      "mat.wood.oak",
+      "mat.stone.granite"
+    ],
+    "capabilities": [
+      "cellular_crafting",
+      "simulate_blueprint"
+    ]
+  }
+]

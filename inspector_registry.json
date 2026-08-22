@@ -1,0 +1,41 @@
+{
+  "levels": [
+    "cell",
+    "object",
+    "organism",
+    "agent",
+    "household",
+    "settlement",
+    "region",
+    "civilization",
+    "planet"
+  ],
+  "panels": [
+    "state",
+    "causes",
+    "consequences",
+    "dependencies",
+    "history",
+    "knowledge",
+    "networks"
+  ],
+  "overlays": [
+    "terrain",
+    "temperature",
+    "moisture",
+    "water",
+    "food",
+    "population",
+    "trade",
+    "power",
+    "knowledge",
+    "social",
+    "political",
+    "conflict",
+    "pollution",
+    "genetics",
+    "atomic",
+    "quantum",
+    "exotic"
+  ]
+}
