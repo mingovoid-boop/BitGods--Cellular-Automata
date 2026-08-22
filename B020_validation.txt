@@ -1,0 +1,1 @@
+B020 VALIDATION: PASS | autonomous systems module + B019 client

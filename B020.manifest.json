@@ -1,0 +1,21 @@
+{
+  "product": "BitGods",
+  "version": "0.20.0-prealpha",
+  "build": "B020-PlayableSystems",
+  "status": "additive-runtime-module",
+  "implemented": [
+    "autonomous agent need ticks",
+    "agent memory records",
+    "creature state",
+    "combat event path",
+    "causal loot path",
+    "B019 playable client retained"
+  ],
+  "limitations": [
+    "B020 systems module not yet visually bound to canvas",
+    "no emergent settlement yet",
+    "placeholder art",
+    "no production AI"
+  ],
+  "nextGate": "B021 Emergent Settlement Runtime"
+}

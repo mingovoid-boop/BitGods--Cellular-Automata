@@ -1,0 +1,22 @@
+{
+  "product": "BitGods",
+  "version": "0.22.0-prealpha",
+  "build": "B022-MultiSettlementEconomy",
+  "status": "headless-economy-gate-verified",
+  "verified": [
+    "102 agents / 3 settlements",
+    "consumption",
+    "spoilage",
+    "adaptive specialization",
+    "comparative advantage",
+    "multi-input tools",
+    "transport loss",
+    "cross-settlement trade"
+  ],
+  "limitations": [
+    "abstract market-day matching",
+    "no currency",
+    "not canvas-bound"
+  ],
+  "nextGate": "B023 Institutions, Markets & Civilization"
+}

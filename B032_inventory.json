@@ -1,0 +1,31 @@
+{
+  "file_count": 129,
+  "major_domains": [
+    "README.md",
+    "accessibility",
+    "alpha",
+    "art",
+    "audio",
+    "builds",
+    "client",
+    "content",
+    "docs",
+    "reports",
+    "runtime",
+    "schemas",
+    "tests",
+    "tools",
+    "ui"
+  ],
+  "client_files": [
+    "client/README.md",
+    "client/b020_systems.js",
+    "client/b021_settlement.js",
+    "client/b028_unified.js",
+    "client/b029_canvas.js",
+    "client/b031_scale.js",
+    "client/game.js",
+    "client/index.html",
+    "client/style.css"
+  ]
+}

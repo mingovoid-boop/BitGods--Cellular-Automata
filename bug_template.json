@@ -1,0 +1,11 @@
+{
+  "id": "BUG-0001",
+  "build": "0.32.0-alpha",
+  "severity": "blocker|major|minor|polish",
+  "area": "runtime|simulation|ui|save|crafting|agents|combat|godmode|other",
+  "steps": [],
+  "expected": "",
+  "actual": "",
+  "reproducible": true,
+  "notes": ""
+}

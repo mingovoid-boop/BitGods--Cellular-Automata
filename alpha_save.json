@@ -1,0 +1,129 @@
+{
+  "agents": {
+    "a1": {
+      "name": "Mara Bitboot",
+      "need": "repair_water",
+      "pos": [
+        2,
+        1
+      ],
+      "trust": 0.25
+    }
+  },
+  "cells": {
+    "0,0": {
+      "moisture": 0.61,
+      "stone": 2,
+      "terrain": "grassland",
+      "wood": 1
+    }
+  },
+  "events": [
+    {
+      "cause": null,
+      "id": 1,
+      "payload": {
+        "seed": "BG-ALPHA-001"
+      },
+      "tick": 1,
+      "type": "WorldCreated"
+    },
+    {
+      "cause": null,
+      "id": 2,
+      "payload": {
+        "pos": [
+          0,
+          0
+        ]
+      },
+      "tick": 2,
+      "type": "PlayerSpawned"
+    },
+    {
+      "cause": null,
+      "id": 3,
+      "payload": {
+        "amount": 2,
+        "resource": "wood"
+      },
+      "tick": 3,
+      "type": "ResourceGathered"
+    },
+    {
+      "cause": "ResourceGathered",
+      "id": 4,
+      "payload": {
+        "machine": "m1"
+      },
+      "tick": 4,
+      "type": "MachineBuilt"
+    },
+    {
+      "cause": null,
+      "id": 5,
+      "payload": {
+        "problem": "repair_water",
+        "quest": "q1"
+      },
+      "tick": 5,
+      "type": "QuestCreated"
+    },
+    {
+      "cause": "QuestCreated",
+      "id": 6,
+      "payload": {
+        "quest": "q1"
+      },
+      "tick": 6,
+      "type": "InfrastructureRepaired"
+    },
+    {
+      "cause": "InfrastructureRepaired",
+      "id": 7,
+      "payload": {
+        "quest": "q1"
+      },
+      "tick": 7,
+      "type": "QuestResolved"
+    },
+    {
+      "cause": "QuestResolved",
+      "id": 8,
+      "payload": {
+        "item": "blueprint_fragment"
+      },
+      "tick": 8,
+      "type": "LootAcquired"
+    }
+  ],
+  "machines": {
+    "m1": {
+      "condition": 1.0,
+      "pos": [
+        1,
+        0
+      ],
+      "type": "primitive_sensor_marker"
+    }
+  },
+  "player": {
+    "inventory": [
+      "blueprint_fragment"
+    ],
+    "knowledge": [],
+    "pos": [
+      0,
+      0
+    ]
+  },
+  "quests": {
+    "q1": {
+      "issuer": "a1",
+      "problem": "repair_water",
+      "status": "resolved"
+    }
+  },
+  "seed": "BG-ALPHA-001",
+  "tick": 8
+}

@@ -1,0 +1,27 @@
+{
+  "product": "BitGods",
+  "version": "0.30.0-prealpha",
+  "build": "B030-LivingWorldIntegration",
+  "status": "headless-living-world-gate-verified",
+  "verified": [
+    "ecological regrowth",
+    "agent resource memory",
+    "resource seeking",
+    "communal storage",
+    "autonomous shelter construction",
+    "autonomous farms",
+    "farm production",
+    "settlement detection",
+    "births/new generation",
+    "civilization seed detection",
+    "zero player intervention"
+  ],
+  "limitations": [
+    "headless integration proof",
+    "death/aging model coarse",
+    "no live multi-settlement trade in same run",
+    "not fully canvas-bound",
+    "simple movement rather than production pathfinding"
+  ],
+  "nextGate": "B031 Live Canvas Emergence + Performance"
+}

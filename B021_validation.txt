@@ -1,0 +1,32 @@
+B021 EMERGENT SETTLEMENT: PASS
+{
+  "seed": 21021,
+  "agents": 24,
+  "settlement_detected": true,
+  "site": {
+    "x": 6,
+    "y": 6,
+    "wood": 0,
+    "food": 46,
+    "storage_wood": 28,
+    "storage_food": 14870,
+    "shelters": 8,
+    "farm_plots": 4
+  },
+  "roles": {
+    "farmer": 24
+  },
+  "knowledge_holders": 24,
+  "event_count": 5676,
+  "event_types": [
+    "AgentAte",
+    "FarmPlotBuilt",
+    "FoodProduced",
+    "KnowledgeShared",
+    "LocationRemembered",
+    "ResourceStored",
+    "RoleEmergent",
+    "SettlementDetected",
+    "ShelterBuilt"
+  ]
+}

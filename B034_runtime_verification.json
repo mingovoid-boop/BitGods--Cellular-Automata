@@ -1,0 +1,46 @@
+{
+  "result": "PASS",
+  "checks": {
+    "javascript_syntax": [
+      {
+        "file": "b020_systems.js",
+        "ok": true,
+        "stderr": ""
+      },
+      {
+        "file": "b021_settlement.js",
+        "ok": true,
+        "stderr": ""
+      },
+      {
+        "file": "b028_unified.js",
+        "ok": true,
+        "stderr": ""
+      },
+      {
+        "file": "b029_canvas.js",
+        "ok": true,
+        "stderr": ""
+      },
+      {
+        "file": "b031_scale.js",
+        "ok": true,
+        "stderr": ""
+      },
+      {
+        "file": "game.js",
+        "ok": true,
+        "stderr": ""
+      }
+    ],
+    "alpha_precheck": "BITGODS ALPHA PRECHECK\nPASS\nclient: /mnt/data/b034_runtime_verify/BitGods_Alpha_v0.33/client/index.html\nplaytest: /mnt/data/b034_runtime_verify/BitGods_Alpha_v0.33/alpha/PLAYTEST.md",
+    "http_server_launch": true,
+    "index_http_fetch": true,
+    "game_js_http_fetch": true,
+    "canvas_present": true
+  },
+  "truth_boundary": {
+    "verified_here": "package launches through a real local HTTP server in this environment and serves the client assets",
+    "not_verified_here": "human interaction, target Windows environment, gameplay quality, full canvas integration of all headless systems"
+  }
+}

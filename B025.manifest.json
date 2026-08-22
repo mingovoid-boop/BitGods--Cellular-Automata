@@ -1,0 +1,27 @@
+{
+  "product": "BitGods",
+  "version": "0.25.0-prealpha",
+  "build": "B025-WarMigrationCollapseSuccession",
+  "status": "headless-conflict-causality-gate-verified",
+  "verified": [
+    "war cause chain",
+    "supply-dependent readiness",
+    "logistics damage consequence",
+    "casualties",
+    "food stress",
+    "refugee migration",
+    "legitimacy pressure",
+    "ceasefire",
+    "historical battlefield residue"
+  ],
+  "conditional": [
+    "successor-state formation occurs only if legitimacy crosses fracture threshold"
+  ],
+  "limitations": [
+    "aggregate armies",
+    "no tactical canvas combat integration",
+    "simplified migration destinations",
+    "no naval warfare"
+  ],
+  "nextGate": "B026 Science Technology Genetics Atomic Quantum"
+}

@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "seed": 26026,
+    "knowledge": {
+      "heritable_cold_tolerance": {
+        "confidence": 0.88,
+        "evidence": [
+          "ExperimentCompleted"
+        ]
+      },
+      "frostwheat_edit_v1": {
+        "confidence": 0.81,
+        "evidence": [
+          "GenomeEditTested"
+        ]
+      },
+      "copper_atomic_signature": {
+        "confidence": 0.93,
+        "evidence": [
+          "AtomicInspection"
+        ]
+      },
+      "two_state_measurement": {
+        "confidence": 0.9,
+        "evidence": [
+          "QuantumMeasurement"
+        ]
+      }
+    },
+    "instruments": [
+      "microscope",
+      "dna_reader",
+      "dna_writer",
+      "atomic_inspector",
+      "quantum_lab"
+    ],
+    "genome_before": {
+      "cold_tolerance": 0.72,
+      "water_efficiency": 0.61,
+      "growth": 0.55
+    },
+    "genome_after": {
+      "cold_tolerance": 0.88,
+      "water_efficiency": 0.57,
+      "growth": 0.49
+    },
+    "quantum": {
+      "p0": 0.65,
+      "p1": 0.35,
+      "measurement": "1",
+      "label": "grounded educational abstraction"
+    },
+    "exotic": {
+      "id": "exotic.topology_memory",
+      "classification": "EXOTIC_FICTIONAL",
+      "rule": "diamond cells retain state under a fictional neighborhood condition"
+    },
+    "event_count": 20
+  },
+  "events": [
+    {
+      "id": 1,
+      "type": "ObservationRecorded",
+      "payload": {
+        "subject": "frostwheat",
+        "observation": "cold plots survive more often"
+      },
+      "cause": null
+    },
+    {
+      "id": 2,
+      "type": "HypothesisCreated",
+      "payload": {
+        "claim": "cold tolerance is heritable"
+      },
+      "cause": "ObservationRecorded"
+    },
+    {
+      "id": 3,
+      "type": "ExperimentCompleted",
+      "payload": {
+        "trials": 64,
+        "cold_survivors": 49,
+        "control_survivors": 23,
+        "effect": 0.406
+      },
+      "cause": "HypothesisCreated"
+    },
+    {
+      "id": 4,
+      "type": "KnowledgeEstablished",
+      "payload": {
+        "subject": "heritable_cold_tolerance",
+        "confidence": 0.88
+      },
+      "cause": "ExperimentCompleted"
+    },
+    {
+      "id": 5,
+      "type": "InstrumentBuilt",
+      "payload": {
+        "name": "microscope",
+        "requires": [
+          "basic_optics"
+        ]
+      },
+      "cause": "KnowledgeEstablished"
+    },
+    {
+      "id": 6,
+      "type": "InstrumentBuilt",
+      "payload": {
+        "name": "dna_reader",
+        "requires": [
+          "microscope",
+          "heritable_cold_tolerance"
+        ]
+      },
+      "cause": "KnowledgeEstablished"
+    },
+    {
+      "id": 7,
+      "type": "InstrumentBuilt",
+      "payload": {
+        "name": "dna_writer",
+        "requires": [
+          "dna_reader",
+          "molecular_tools"
+        ]
+      },
+      "cause": "KnowledgeEstablished"
+    },
+    {
+      "id": 8,
+      "type": "InstrumentBuilt",
+      "payload": {
+        "name": "atomic_inspector",
+        "requires": [
+          "spectroscopy",
+          "precision_instrumentation"
+        ]
+      },
+      "cause": "KnowledgeEstablished"
+    },
+    {
+      "id": 9,
+      "type": "InstrumentBuilt",
+      "payload": {
+        "name": "quantum_lab",
+        "requires": [
+          "atomic_inspector",
+          "probability_model",
+          "coherence_control"
+        ]
+      },
+      "cause": "KnowledgeEstablished"
+    },
+    {
+      "id": 10,
+      "type": "GenomeRead",
+      "payload": {
+        "species": "frostwheat",
+        "traits": {
+          "cold_tolerance": 0.72,
+          "water_efficiency": 0.61,
+          "growth": 0.55
+        }
+      },
+      "cause": "InstrumentBuilt"
+    },
+    {
+      "id": 11,
+      "type": "GenomeEditProposed",
+      "payload": {
+        "before": {
+          "cold_tolerance": 0.72,
+          "water_efficiency": 0.61,
+          "growth": 0.55
+        },
+        "after": {
+          "cold_tolerance": 0.88,
+          "water_efficiency": 0.57,
+          "growth": 0.49
+        },
+        "tradeoffs": {
+          "growth": -0.06,
+          "water_efficiency": -0.04
+        }
+      },
+      "cause": "GenomeRead"
+    },
+    {
+      "id": 12,
+      "type": "GenomeEditTested",
+      "payload": {
+        "cold_survival_gain": 0.16,
+        "normal_condition_yield_base": 33.55,
+        "normal_condition_yield_edit": 27.93
+      },
+      "cause": "GenomeEditProposed"
+    },
+    {
+      "id": 13,
+      "type": "KnowledgeEstablished",
+      "payload": {
+        "subject": "frostwheat_edit_v1",
+        "confidence": 0.81
+      },
+      "cause": "GenomeEditTested"
+    },
+    {
+      "id": 14,
+      "type": "AtomicInspection",
+      "payload": {
+        "sample": "copper",
+        "spectral_lines": [
+          324.8,
+          327.4
+        ],
+        "conductivity": 0.95
+      },
+      "cause": "InstrumentBuilt"
+    },
+    {
+      "id": 15,
+      "type": "KnowledgeEstablished",
+      "payload": {
+        "subject": "copper_atomic_signature",
+        "confidence": 0.93
+      },
+      "cause": "AtomicInspection"
+    },
+    {
+      "id": 16,
+      "type": "QuantumStatePrepared",
+      "payload": {
+        "basis": "two_state",
+        "p0": 0.65,
+        "p1": 0.35,
+        "normalized": true
+      },
+      "cause": "InstrumentBuilt"
+    },
+    {
+      "id": 17,
+      "type": "QuantumStateEvolved",
+      "payload": {
+        "phase_shift": 0.7,
+        "p0": 0.65,
+        "p1": 0.35
+      },
+      "cause": "QuantumStatePrepared"
+    },
+    {
+      "id": 18,
+      "type": "QuantumMeasurement",
+      "payload": {
+        "result": "1",
+        "model": "two-state educational abstraction"
+      },
+      "cause": "QuantumStateEvolved"
+    },
+    {
+      "id": 19,
+      "type": "KnowledgeEstablished",
+      "payload": {
+        "subject": "two_state_measurement",
+        "confidence": 0.9
+      },
+      "cause": "QuantumMeasurement"
+    },
+    {
+      "id": 20,
+      "type": "ExoticModelRegistered",
+      "payload": {
+        "id": "exotic.topology_memory",
+        "classification": "EXOTIC_FICTIONAL",
+        "rule": "diamond cells retain state under a fictional neighborhood condition"
+      },
+      "cause": null
+    }
+  ]
+}

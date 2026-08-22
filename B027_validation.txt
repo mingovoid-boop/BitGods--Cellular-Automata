@@ -1,0 +1,7 @@
+B027 GOD MODE / TIMELINE FORK: PASS
+{
+  "population": 0,
+  "migration": 0,
+  "food": 0.283,
+  "legitimacy": 0.0
+}

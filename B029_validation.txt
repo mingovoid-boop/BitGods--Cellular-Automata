@@ -1,0 +1,1 @@
+B029 CANVAS INTEGRATION: PASS | visible workers, structures, caravan, overlays and conflict/refugee path present

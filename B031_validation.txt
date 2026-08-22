@@ -1,0 +1,51 @@
+B031 LIVE EMERGENCE + SCALE: PASS
+[
+  {
+    "agents": 100,
+    "ticks": 300,
+    "updates": 30000,
+    "elapsed_seconds": 0.0067,
+    "updates_per_second": 4469162.6,
+    "lod_counts": {
+      "full": 100,
+      "reduced": 0,
+      "aggregate": 0
+    }
+  },
+  {
+    "agents": 500,
+    "ticks": 300,
+    "updates": 60000,
+    "elapsed_seconds": 0.0224,
+    "updates_per_second": 2680044.4,
+    "lod_counts": {
+      "full": 100,
+      "reduced": 400,
+      "aggregate": 0
+    }
+  },
+  {
+    "agents": 1000,
+    "ticks": 300,
+    "updates": 72500,
+    "elapsed_seconds": 0.0398,
+    "updates_per_second": 1823546.3,
+    "lod_counts": {
+      "full": 100,
+      "reduced": 400,
+      "aggregate": 500
+    }
+  },
+  {
+    "agents": 5000,
+    "ticks": 300,
+    "updates": 172500,
+    "elapsed_seconds": 0.1693,
+    "updates_per_second": 1018658.8,
+    "lod_counts": {
+      "full": 100,
+      "reduced": 400,
+      "aggregate": 4500
+    }
+  }
+]

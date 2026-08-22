@@ -1,0 +1,21 @@
+{
+  "product": "BitGods",
+  "version": "0.34.0-alpha",
+  "build": "B034-RuntimeVerification",
+  "status": "local-http-runtime-verified",
+  "verified": [
+    "all browser JS syntax",
+    "alpha precheck",
+    "local HTTP server startup",
+    "index asset serving",
+    "game.js asset serving",
+    "one-command launcher packaging"
+  ],
+  "not_verified": [
+    "target Windows machine execution",
+    "human controls/playtest",
+    "full B030 live emergence in canvas",
+    "production performance"
+  ],
+  "nextGate": "B035 Live Gameplay Integration"
+}

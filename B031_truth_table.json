@@ -1,0 +1,12 @@
+{
+  "100_agent_stress": "VERIFIED_HEADLESS",
+  "500_agent_stress": "VERIFIED_HEADLESS",
+  "1000_agent_stress": "VERIFIED_HEADLESS",
+  "5000_agent_stress": "VERIFIED_HEADLESS",
+  "simulation_lod": "VERIFIED_HEADLESS",
+  "canvas_telemetry": "IMPLEMENTED",
+  "construction_progress_visual": "IMPLEMENTED",
+  "traffic_to_road_contract": "IMPLEMENTED",
+  "family_lineage_registry": "IMPLEMENTED",
+  "B030_full_emergence_live_canvas": "PARTIAL_NOT_YET_VERIFIED"
+}

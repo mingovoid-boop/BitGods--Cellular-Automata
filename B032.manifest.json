@@ -1,0 +1,27 @@
+{
+  "product": "BitGods",
+  "version": "0.32.0-alpha",
+  "build": "B032-PlaytestAlphaPackaging",
+  "status": "alpha-package-ready-for-human-test",
+  "included": [
+    "browser client",
+    "versioned simulation artifacts B021-B031",
+    "launch scripts",
+    "playtest route",
+    "bug template",
+    "telemetry template",
+    "truth/acceptance gate"
+  ],
+  "verified": [
+    "package structure",
+    "required alpha artifacts present"
+  ],
+  "not_verified": [
+    "human playtest",
+    "target-machine browser behavior",
+    "full-system live integration",
+    "production performance"
+  ],
+  "freeze_rule": "No new foundational feature family until alpha playtest findings are triaged.",
+  "nextGate": "B033 Alpha Triage & Runtime Repair"
+}

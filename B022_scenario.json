@@ -1,0 +1,21 @@
+{
+  "seed": 22022,
+  "days": 180,
+  "settlements": [
+    {
+      "id": "river",
+      "advantage": "food",
+      "population": 38
+    },
+    {
+      "id": "forest",
+      "advantage": "wood",
+      "population": 34
+    },
+    {
+      "id": "ridge",
+      "advantage": "ore",
+      "population": 32
+    }
+  ]
+}

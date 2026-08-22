@@ -1,0 +1,24 @@
+{
+  "product": "BitGods",
+  "version": "0.26.0-prealpha",
+  "build": "B026-ScienceGeneticsAtomicQuantum",
+  "status": "headless-science-progression-gate-verified",
+  "verified": [
+    "observation-hypothesis-experiment-evidence chain",
+    "knowledge records",
+    "instrument progression",
+    "DNA reader",
+    "DNA writer with tradeoffs",
+    "atomic inspection record",
+    "normalized two-state quantum abstraction",
+    "measurement event",
+    "explicit Exotic labeling"
+  ],
+  "limitations": [
+    "educational/coarse physics models",
+    "no molecular dynamics",
+    "no general quantum-field simulation",
+    "not canvas-bound"
+  ],
+  "nextGate": "B027 God Mode Deep Inspector Branch Timelines"
+}

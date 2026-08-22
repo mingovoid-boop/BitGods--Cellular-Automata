@@ -1,0 +1,21 @@
+{
+  "product": "BitGods",
+  "version": "0.33.0-alpha",
+  "build": "B033-AlphaTriageReadiness",
+  "status": "pre-triage-ready",
+  "verified": [
+    "alpha bundle retained",
+    "triage priority system",
+    "known integration gaps consolidated",
+    "precheck script"
+  ],
+  "blocked_on": [
+    "real human playtest evidence from target runtime"
+  ],
+  "explicitly_not_claimed": [
+    "bug fixes based on nonexistent playtest results",
+    "production performance",
+    "full live integration"
+  ],
+  "next_action": "Run v0.32/v0.33 alpha playtest, then feed observed issues into B033 repair loop."
+}

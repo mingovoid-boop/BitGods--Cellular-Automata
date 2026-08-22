@@ -1,0 +1,15 @@
+{
+  "workers_visible_on_canvas": "IMPLEMENTED",
+  "role_visual_distinction": "IMPLEMENTED",
+  "structures_visible": "IMPLEMENTED",
+  "settlement_bounds_visible": "IMPLEMENTED",
+  "moving_caravan": "IMPLEMENTED",
+  "trade_overlay": "IMPLEMENTED",
+  "political_overlay": "IMPLEMENTED",
+  "conflict_refugee_visual_path": "IMPLEMENTED",
+  "full_B021_emergence_bound_live": "NOT_YET",
+  "full_B022_economy_bound_live": "PARTIAL",
+  "full_B025_war_bound_live": "PARTIAL",
+  "dna_visual_phenotype": "NOT_YET",
+  "timeline_branch_UI": "NOT_YET"
+}

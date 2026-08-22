@@ -1,0 +1,1596 @@
+{
+  "summary": {
+    "seed": 23023,
+    "civilization_detected": true,
+    "trade_total": 954.85,
+    "knowledge_total": 116.43,
+    "avg_identity": 1.0,
+    "shared_institutions": [
+      "council",
+      "market",
+      "school"
+    ],
+    "successors": {
+      "river_union": {
+        "inherits": [
+          "market",
+          "school"
+        ],
+        "language": "proto-bitic",
+        "symbol": "circle-diamond"
+      },
+      "ridge_republic": {
+        "inherits": [
+          "school",
+          "council"
+        ],
+        "language": "proto-bitic",
+        "symbol": "split-hex"
+      }
+    },
+    "event_count": 326
+  },
+  "events": [
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 32,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 32,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 32,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 33,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 33,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 33,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 34,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 34,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 34,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 35,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 35,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 35,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 36,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 36,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 36,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 37,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 37,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 37,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 38,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 38,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 38,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 39,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 39,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 39,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 40,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 40,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 40,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 41,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 41,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 41,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 42,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 42,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 42,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 43,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 43,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 43,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 44,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 44,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 44,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 45,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 45,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 45,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 46,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 46,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 46,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 47,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 47,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 47,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 48,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 48,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 48,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 49,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 49,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 49,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 50,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 50,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 50,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 51,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 51,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 51,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 52,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 52,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 52,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 53,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 53,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 53,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 54,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 54,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 54,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 55,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 55,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 55,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 56,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 56,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 56,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 57,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 57,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 57,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 58,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 58,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 58,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 59,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 59,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 59,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 60,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 60,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 60,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 61,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 61,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 61,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 62,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 62,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 62,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 63,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 63,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 63,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 64,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 64,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 64,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 65,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 65,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 65,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 66,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 66,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 66,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 67,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 67,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 67,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 68,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 68,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 68,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 69,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 69,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 69,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 70,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 70,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 70,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 71,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 71,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 71,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 72,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 72,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 72,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 73,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 73,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 73,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 74,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 74,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 74,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 75,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 75,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 75,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 76,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 76,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 76,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 77,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 77,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 77,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 78,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 78,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 78,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "KnowledgeExchanged",
+      "payload": {
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 79,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 79,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 79,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 80,
+        "a": "river",
+        "b": "forest"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 80,
+        "a": "river",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "TradeRelationship",
+      "payload": {
+        "year": 80,
+        "a": "forest",
+        "b": "ridge"
+      }
+    },
+    {
+      "type": "CivilizationDetected",
+      "payload": {
+        "members": [
+          "river",
+          "forest",
+          "ridge"
+        ]
+      }
+    },
+    {
+      "type": "PoliticalCrisis",
+      "payload": {
+        "cause": "regional autonomy"
+      }
+    },
+    {
+      "type": "CivilizationFragmented",
+      "payload": {
+        "successors": [
+          "river_union",
+          "ridge_republic"
+        ]
+      }
+    },
+    {
+      "type": "SuccessorFounded",
+      "payload": {
+        "name": "river_union",
+        "inherits": [
+          "market",
+          "school"
+        ],
+        "language": "proto-bitic",
+        "symbol": "circle-diamond"
+      }
+    },
+    {
+      "type": "SuccessorFounded",
+      "payload": {
+        "name": "ridge_republic",
+        "inherits": [
+          "school",
+          "council"
+        ],
+        "language": "proto-bitic",
+        "symbol": "split-hex"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+B023 CIVILIZATION EMERGENCE: PASS
+{
+  "seed": 23023,
+  "civilization_detected": true,
+  "trade_total": 954.85,
+  "knowledge_total": 116.43,
+  "avg_identity": 1.0,
+  "shared_institutions": [
+    "council",
+    "market",
+    "school"
+  ],
+  "successors": {
+    "river_union": {
+      "inherits": [
+        "market",
+        "school"
+      ],
+      "language": "proto-bitic",
+      "symbol": "circle-diamond"
+    },
+    "ridge_republic": {
+      "inherits": [
+        "school",
+        "council"
+      ],
+      "language": "proto-bitic",
+      "symbol": "split-hex"
+    }
+  },
+  "event_count": 326
+}

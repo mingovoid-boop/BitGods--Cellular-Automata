@@ -1,0 +1,720 @@
+{
+  "summary": {
+    "seed": 25025,
+    "river": {
+      "name": "River Union",
+      "population": 5702,
+      "food": 1106.7499999999993,
+      "military": 513,
+      "legitimacy": 0.48460771428571403,
+      "treasury": 510.0,
+      "refugees": 291
+    },
+    "marsh": {
+      "name": "Marsh Compact",
+      "population": 4691,
+      "food": 1414.7200000000012,
+      "military": 436,
+      "legitimacy": 0.4940802666666666,
+      "treasury": 510.0,
+      "refugees": 235
+    },
+    "route": {
+      "capacity": 100.0,
+      "integrity": 0.58
+    },
+    "campaign": [
+      {
+        "month": 1,
+        "route_integrity": 1.0,
+        "river_ready": 720,
+        "marsh_ready": 610
+      },
+      {
+        "month": 2,
+        "route_integrity": 1.0,
+        "river_ready": 713,
+        "marsh_ready": 600
+      },
+      {
+        "month": 3,
+        "route_integrity": 1.0,
+        "river_ready": 705,
+        "marsh_ready": 588
+      },
+      {
+        "month": 4,
+        "route_integrity": 1.0,
+        "river_ready": 701,
+        "marsh_ready": 581
+      },
+      {
+        "month": 5,
+        "route_integrity": 1.0,
+        "river_ready": 692,
+        "marsh_ready": 576
+      },
+      {
+        "month": 6,
+        "route_integrity": 1.0,
+        "river_ready": 683,
+        "marsh_ready": 572
+      },
+      {
+        "month": 7,
+        "route_integrity": 0.28,
+        "river_ready": 679,
+        "marsh_ready": 559
+      },
+      {
+        "month": 8,
+        "route_integrity": 0.28,
+        "river_ready": 236.3,
+        "marsh_ready": 553
+      },
+      {
+        "month": 9,
+        "route_integrity": 0.28,
+        "river_ready": 231.4,
+        "marsh_ready": 551
+      },
+      {
+        "month": 10,
+        "route_integrity": 0.28,
+        "river_ready": 227.9,
+        "marsh_ready": 549
+      },
+      {
+        "month": 11,
+        "route_integrity": 0.28,
+        "river_ready": 221.2,
+        "marsh_ready": 546
+      },
+      {
+        "month": 12,
+        "route_integrity": 0.28,
+        "river_ready": 217.0,
+        "marsh_ready": 542
+      },
+      {
+        "month": 13,
+        "route_integrity": 0.28,
+        "river_ready": 211.4,
+        "marsh_ready": 540
+      },
+      {
+        "month": 14,
+        "route_integrity": 0.58,
+        "river_ready": 203.4,
+        "marsh_ready": 536
+      },
+      {
+        "month": 15,
+        "route_integrity": 0.58,
+        "river_ready": 413.2,
+        "marsh_ready": 506.3
+      },
+      {
+        "month": 16,
+        "route_integrity": 0.58,
+        "river_ready": 404.5,
+        "marsh_ready": 467.9
+      },
+      {
+        "month": 17,
+        "route_integrity": 0.58,
+        "river_ready": 400.9,
+        "marsh_ready": 430.4
+      },
+      {
+        "month": 18,
+        "route_integrity": 0.58,
+        "river_ready": 395.1,
+        "marsh_ready": 392.4
+      },
+      {
+        "month": 19,
+        "route_integrity": 0.58,
+        "river_ready": 392.2,
+        "marsh_ready": 356.4
+      },
+      {
+        "month": 20,
+        "route_integrity": 0.58,
+        "river_ready": 389.3,
+        "marsh_ready": 318.9
+      },
+      {
+        "month": 21,
+        "route_integrity": 0.58,
+        "river_ready": 387.1,
+        "marsh_ready": 280.9
+      },
+      {
+        "month": 22,
+        "route_integrity": 0.58,
+        "river_ready": 381.3,
+        "marsh_ready": 247.5
+      },
+      {
+        "month": 23,
+        "route_integrity": 0.58,
+        "river_ready": 376.3,
+        "marsh_ready": 214.8
+      },
+      {
+        "month": 24,
+        "route_integrity": 0.58,
+        "river_ready": 373.4,
+        "marsh_ready": 186.2
+      }
+    ],
+    "successors": {
+      "Forest Freeholds": {
+        "parent": "River Union",
+        "inherits": [
+          "proto-bitic",
+          "market law",
+          "woodcraft"
+        ],
+        "symbol": "broken-circle"
+      }
+    },
+    "historical_site": {
+      "name": "Iron Bridge Battlefield",
+      "origin": "war",
+      "year": 25,
+      "artifacts": [
+        "broken weapons",
+        "bridge masonry",
+        "military records"
+      ],
+      "causes": [
+        "iron dispute",
+        "diplomacy failure",
+        "logistics strike"
+      ]
+    },
+    "event_count": 51,
+    "readiness_before_logistics_damage": 683,
+    "readiness_after_damage": 231.4
+  },
+  "events": [
+    {
+      "id": 1,
+      "type": "BorderPressure",
+      "payload": {
+        "resource": "iron",
+        "severity": 0.71
+      },
+      "cause": null
+    },
+    {
+      "id": 2,
+      "type": "DiplomacyFailed",
+      "payload": {
+        "issue": "contested iron corridor"
+      },
+      "cause": "BorderPressure"
+    },
+    {
+      "id": 3,
+      "type": "WarDeclared",
+      "payload": {
+        "attacker": "River Union",
+        "defender": "Marsh Compact"
+      },
+      "cause": "DiplomacyFailed"
+    },
+    {
+      "id": 4,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 1,
+        "river": 7,
+        "marsh": 10
+      },
+      "cause": null
+    },
+    {
+      "id": 5,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 2,
+        "river": 8,
+        "marsh": 12
+      },
+      "cause": null
+    },
+    {
+      "id": 6,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 3,
+        "river": 4,
+        "marsh": 7
+      },
+      "cause": null
+    },
+    {
+      "id": 7,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 4,
+        "river": 9,
+        "marsh": 5
+      },
+      "cause": null
+    },
+    {
+      "id": 8,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 5,
+        "river": 9,
+        "marsh": 4
+      },
+      "cause": null
+    },
+    {
+      "id": 9,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 6,
+        "river": 4,
+        "marsh": 13
+      },
+      "cause": null
+    },
+    {
+      "id": 10,
+      "type": "LogisticsNodeDamaged",
+      "payload": {
+        "route": "Iron Bridge",
+        "integrity": 0.28
+      },
+      "cause": "WarDeclared"
+    },
+    {
+      "id": 11,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 7,
+        "river": 4,
+        "marsh": 6
+      },
+      "cause": null
+    },
+    {
+      "id": 12,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 7,
+        "river": 2,
+        "marsh": 1
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 13,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 8,
+        "river": 14,
+        "marsh": 2
+      },
+      "cause": null
+    },
+    {
+      "id": 14,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 8,
+        "river": 4,
+        "marsh": 3
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 15,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 9,
+        "river": 10,
+        "marsh": 2
+      },
+      "cause": null
+    },
+    {
+      "id": 16,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 9,
+        "river": 6,
+        "marsh": 4
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 17,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 10,
+        "river": 19,
+        "marsh": 3
+      },
+      "cause": null
+    },
+    {
+      "id": 18,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 10,
+        "river": 7,
+        "marsh": 6
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 19,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 11,
+        "river": 12,
+        "marsh": 4
+      },
+      "cause": null
+    },
+    {
+      "id": 20,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 11,
+        "river": 9,
+        "marsh": 7
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 21,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 12,
+        "river": 16,
+        "marsh": 2
+      },
+      "cause": null
+    },
+    {
+      "id": 22,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 12,
+        "river": 11,
+        "marsh": 8
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 23,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 13,
+        "river": 23,
+        "marsh": 4
+      },
+      "cause": null
+    },
+    {
+      "id": 24,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 13,
+        "river": 13,
+        "marsh": 10
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 25,
+      "type": "LogisticsNodeRepaired",
+      "payload": {
+        "route": "Iron Bridge",
+        "integrity": 0.58
+      },
+      "cause": "LogisticsNodeDamaged"
+    },
+    {
+      "id": 26,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 14,
+        "river": 11,
+        "marsh": 4
+      },
+      "cause": null
+    },
+    {
+      "id": 27,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 14,
+        "river": 14,
+        "marsh": 11
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 28,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 15,
+        "river": 12,
+        "marsh": 5
+      },
+      "cause": null
+    },
+    {
+      "id": 29,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 15,
+        "river": 16,
+        "marsh": 13
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 30,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 16,
+        "river": 5,
+        "marsh": 5
+      },
+      "cause": null
+    },
+    {
+      "id": 31,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 16,
+        "river": 17,
+        "marsh": 14
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 32,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 17,
+        "river": 8,
+        "marsh": 7
+      },
+      "cause": null
+    },
+    {
+      "id": 33,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 17,
+        "river": 19,
+        "marsh": 15
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 34,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 18,
+        "river": 4,
+        "marsh": 6
+      },
+      "cause": null
+    },
+    {
+      "id": 35,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 18,
+        "river": 20,
+        "marsh": 17
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 36,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 19,
+        "river": 4,
+        "marsh": 10
+      },
+      "cause": null
+    },
+    {
+      "id": 37,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 19,
+        "river": 22,
+        "marsh": 18
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 38,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 20,
+        "river": 3,
+        "marsh": 14
+      },
+      "cause": null
+    },
+    {
+      "id": 39,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 20,
+        "river": 23,
+        "marsh": 19
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 40,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 21,
+        "river": 8,
+        "marsh": 10
+      },
+      "cause": null
+    },
+    {
+      "id": 41,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 21,
+        "river": 25,
+        "marsh": 20
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 42,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 22,
+        "river": 7,
+        "marsh": 12
+      },
+      "cause": null
+    },
+    {
+      "id": 43,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 22,
+        "river": 26,
+        "marsh": 22
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 44,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 23,
+        "river": 4,
+        "marsh": 7
+      },
+      "cause": null
+    },
+    {
+      "id": 45,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 23,
+        "river": 28,
+        "marsh": 23
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 46,
+      "type": "BattleLosses",
+      "payload": {
+        "month": 24,
+        "river": 2,
+        "marsh": 20
+      },
+      "cause": null
+    },
+    {
+      "id": 47,
+      "type": "MigrationWave",
+      "payload": {
+        "month": 24,
+        "river": 29,
+        "marsh": 24
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 48,
+      "type": "Ceasefire",
+      "payload": {
+        "month": 24
+      },
+      "cause": "BattleLosses"
+    },
+    {
+      "id": 49,
+      "type": "SecessionMovement",
+      "payload": {
+        "region": "Forest March",
+        "legitimacy": 0.485
+      },
+      "cause": "MigrationWave"
+    },
+    {
+      "id": 50,
+      "type": "SuccessorFounded",
+      "payload": {
+        "name": "Forest Freeholds",
+        "parent": "River Union",
+        "inherits": [
+          "proto-bitic",
+          "market law",
+          "woodcraft"
+        ],
+        "symbol": "broken-circle"
+      },
+      "cause": "SecessionMovement"
+    },
+    {
+      "id": 51,
+      "type": "HistoricalSiteCreated",
+      "payload": {
+        "name": "Iron Bridge Battlefield",
+        "origin": "war",
+        "year": 25,
+        "artifacts": [
+          "broken weapons",
+          "bridge masonry",
+          "military records"
+        ],
+        "causes": [
+          "iron dispute",
+          "diplomacy failure",
+          "logistics strike"
+        ]
+      },
+      "cause": "Ceasefire"
+    }
+  ]
+}

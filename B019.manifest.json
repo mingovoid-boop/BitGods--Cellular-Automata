@@ -1,0 +1,20 @@
+{
+  "product": "BitGods",
+  "version": "0.19.0-prealpha",
+  "build": "B019-RuntimeClient",
+  "status": "minimal-browser-runtime",
+  "verified": [
+    "client files",
+    "movement controls present",
+    "gather/craft/quest/loot/save-load runtime paths statically validated"
+  ],
+  "not_verified": [
+    "interactive browser execution in this environment",
+    "full autonomous AI",
+    "combat",
+    "large-scale simulation",
+    "production art/audio"
+  ],
+  "launch": "cd bitgods_bundle/client && python3 -m http.server 8080",
+  "nextGate": "B020 Playable Systems Expansion"
+}

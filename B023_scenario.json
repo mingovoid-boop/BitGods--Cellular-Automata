@@ -1,0 +1,10 @@
+{
+  "seed": 23023,
+  "years": 80,
+  "settlements": [
+    "river",
+    "forest",
+    "ridge"
+  ],
+  "fracture_test": true
+}

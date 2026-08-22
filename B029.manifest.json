@@ -1,0 +1,23 @@
+{
+  "product": "BitGods",
+  "version": "0.29.0-prealpha",
+  "build": "B029-CanvasSimulationIntegration",
+  "status": "visible-canvas-integration",
+  "implemented": [
+    "canvas-bound workers",
+    "role colors",
+    "structures",
+    "settlement boundaries",
+    "moving trade caravan",
+    "trade/political overlays",
+    "conflict-triggered refugee visualization"
+  ],
+  "not_verified": [
+    "complete emergent settlement logic live in canvas",
+    "complete economy simulation live in canvas",
+    "DNA phenotype rendering",
+    "timeline branch UI",
+    "production pathfinding"
+  ],
+  "nextGate": "B030 Living World Integration"
+}

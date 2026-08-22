@@ -1,0 +1,1091 @@
+{
+  "summary": {
+    "seed": 21021,
+    "agents": 24,
+    "settlement_detected": true,
+    "site": {
+      "x": 6,
+      "y": 6,
+      "wood": 0,
+      "food": 46,
+      "storage_wood": 28,
+      "storage_food": 14870,
+      "shelters": 8,
+      "farm_plots": 4
+    },
+    "roles": {
+      "farmer": 24
+    },
+    "knowledge_holders": 24,
+    "event_count": 5676,
+    "event_types": [
+      "AgentAte",
+      "FarmPlotBuilt",
+      "FoodProduced",
+      "KnowledgeShared",
+      "LocationRemembered",
+      "ResourceStored",
+      "RoleEmergent",
+      "SettlementDetected",
+      "ShelterBuilt"
+    ]
+  },
+  "events": [
+    {
+      "id": 5557,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a00",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5558,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a01",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5559,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a02",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5560,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a03",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5561,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a04",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5562,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a05",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5563,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a06",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5564,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a07",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5565,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a08",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5566,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a09",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5567,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a10",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5568,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a11",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5569,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a12",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5570,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a13",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5571,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a14",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5572,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a15",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5573,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a16",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5574,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a17",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5575,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a18",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5576,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a19",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5577,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a20",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5578,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a21",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5579,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a22",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5580,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a23",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5581,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a00"
+      },
+      "cause": null
+    },
+    {
+      "id": 5582,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a01"
+      },
+      "cause": null
+    },
+    {
+      "id": 5583,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a02"
+      },
+      "cause": null
+    },
+    {
+      "id": 5584,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a03"
+      },
+      "cause": null
+    },
+    {
+      "id": 5585,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a04"
+      },
+      "cause": null
+    },
+    {
+      "id": 5586,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a05"
+      },
+      "cause": null
+    },
+    {
+      "id": 5587,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a06"
+      },
+      "cause": null
+    },
+    {
+      "id": 5588,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a07"
+      },
+      "cause": null
+    },
+    {
+      "id": 5589,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a08"
+      },
+      "cause": null
+    },
+    {
+      "id": 5590,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a09"
+      },
+      "cause": null
+    },
+    {
+      "id": 5591,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a10"
+      },
+      "cause": null
+    },
+    {
+      "id": 5592,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a11"
+      },
+      "cause": null
+    },
+    {
+      "id": 5593,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a12"
+      },
+      "cause": null
+    },
+    {
+      "id": 5594,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a13"
+      },
+      "cause": null
+    },
+    {
+      "id": 5595,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a14"
+      },
+      "cause": null
+    },
+    {
+      "id": 5596,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a15"
+      },
+      "cause": null
+    },
+    {
+      "id": 5597,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a16"
+      },
+      "cause": null
+    },
+    {
+      "id": 5598,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a17"
+      },
+      "cause": null
+    },
+    {
+      "id": 5599,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a18"
+      },
+      "cause": null
+    },
+    {
+      "id": 5600,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a19"
+      },
+      "cause": null
+    },
+    {
+      "id": 5601,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a20"
+      },
+      "cause": null
+    },
+    {
+      "id": 5602,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a21"
+      },
+      "cause": null
+    },
+    {
+      "id": 5603,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a22"
+      },
+      "cause": null
+    },
+    {
+      "id": 5604,
+      "type": "AgentAte",
+      "payload": {
+        "agent": "a23"
+      },
+      "cause": null
+    },
+    {
+      "id": 5605,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a00",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5606,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a01",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5607,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a02",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5608,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a03",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5609,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a04",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5610,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a05",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5611,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a06",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5612,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a07",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5613,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a08",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5614,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a09",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5615,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a10",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5616,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a11",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5617,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a12",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5618,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a13",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5619,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a14",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5620,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a15",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5621,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a16",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5622,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a17",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5623,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a18",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5624,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a19",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5625,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a20",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5626,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a21",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5627,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a22",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5628,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a23",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5629,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a00",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5630,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a01",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5631,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a02",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5632,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a03",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5633,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a04",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5634,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a05",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5635,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a06",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5636,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a07",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5637,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a08",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5638,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a09",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5639,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a10",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5640,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a11",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5641,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a12",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5642,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a13",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5643,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a14",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5644,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a15",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5645,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a16",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5646,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a17",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5647,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a18",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5648,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a19",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5649,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a20",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5650,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a21",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5651,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a22",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5652,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a23",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5653,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a00",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5654,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a01",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5655,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a02",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5656,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a03",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5657,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a04",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5658,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a05",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5659,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a06",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5660,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a07",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5661,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a08",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5662,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a09",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5663,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a10",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5664,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a11",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5665,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a12",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5666,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a13",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5667,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a14",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5668,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a15",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5669,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a16",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5670,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a17",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5671,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a18",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5672,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a19",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5673,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a20",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5674,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a21",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5675,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a22",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    },
+    {
+      "id": 5676,
+      "type": "FoodProduced",
+      "payload": {
+        "agent": "a23",
+        "amount": 3
+      },
+      "cause": "FarmPlotBuilt"
+    }
+  ]
+}

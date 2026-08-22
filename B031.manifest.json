@@ -1,0 +1,23 @@
+{
+  "product": "BitGods",
+  "version": "0.31.0-prealpha",
+  "build": "B031-LiveEmergenceScale",
+  "status": "scale-gate-verified-plus-canvas-telemetry",
+  "verified": [
+    "100/500/1000/5000 agent headless stress runs",
+    "LOD update throttling"
+  ],
+  "implemented": [
+    "canvas telemetry",
+    "construction progress rendering",
+    "traffic-to-road contract",
+    "lineage registry"
+  ],
+  "limitations": [
+    "B030 complete causal loop only partially canvas-bound",
+    "stress benchmark is synthetic",
+    "no production pathfinding benchmark",
+    "no native executable"
+  ],
+  "nextGate": "B032 Playtest Alpha Packaging"
+}

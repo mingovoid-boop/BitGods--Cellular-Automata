@@ -1,0 +1,125 @@
+{
+  "comparison": {
+    "fork_year": 418,
+    "branch_A": {
+      "intervention": "rain_influence",
+      "final": {
+        "year": 430,
+        "rainfall": 0.64,
+        "reservoir": 0.6752000000000007,
+        "food": 0.7714079999999996,
+        "population": 10000,
+        "migration": 0,
+        "legitimacy": 0.58,
+        "government": "River Assembly",
+        "civilization": "River Union"
+      }
+    },
+    "branch_B": {
+      "intervention": "none",
+      "final": {
+        "year": 430,
+        "rainfall": 0.42,
+        "reservoir": 0.31159999999999954,
+        "food": 0.4880389999999998,
+        "population": 10000,
+        "migration": 0,
+        "legitimacy": 0.58,
+        "government": "River Assembly",
+        "civilization": "River Union"
+      }
+    },
+    "delta": {
+      "population": 0,
+      "migration": 0,
+      "food": 0.283,
+      "legitimacy": 0.0
+    },
+    "causal_trace_B": [
+      "low rainfall",
+      "reservoir decline",
+      "food stress",
+      "migration",
+      "legitimacy decline",
+      "political pressure",
+      "government outcome"
+    ],
+    "causal_trace_A": [
+      "rain intervention",
+      "reservoir recovery",
+      "flood side effect",
+      "food outcome",
+      "migration outcome",
+      "government outcome"
+    ]
+  },
+  "events_A": [
+    {
+      "id": 1,
+      "type": "TimelineForked",
+      "payload": {
+        "branch": "A_INTERVENE",
+        "year": 418
+      },
+      "cause": null
+    },
+    {
+      "id": 2,
+      "type": "GodIntervention",
+      "payload": {
+        "type": "rain_influence",
+        "magnitude": 0.22,
+        "cost": 34,
+        "side_effect": "flood_risk"
+      },
+      "cause": null
+    },
+    {
+      "id": 3,
+      "type": "FloodDamage",
+      "payload": {
+        "year": 420,
+        "food_loss": 0.025
+      },
+      "cause": "GodIntervention"
+    },
+    {
+      "id": 4,
+      "type": "FloodDamage",
+      "payload": {
+        "year": 421,
+        "food_loss": 0.025
+      },
+      "cause": "GodIntervention"
+    },
+    {
+      "id": 5,
+      "type": "GovernmentPersisted",
+      "payload": {
+        "year": 430,
+        "legitimacy": 0.58
+      },
+      "cause": null
+    }
+  ],
+  "events_B": [
+    {
+      "id": 1,
+      "type": "TimelineForked",
+      "payload": {
+        "branch": "B_OBSERVE",
+        "year": 418
+      },
+      "cause": null
+    },
+    {
+      "id": 2,
+      "type": "GovernmentPersisted",
+      "payload": {
+        "year": 430,
+        "legitimacy": 0.58
+      },
+      "cause": null
+    }
+  ]
+}

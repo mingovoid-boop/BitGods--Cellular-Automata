@@ -1,0 +1,8 @@
+{
+  "product": "BitGods",
+  "bundleVersion": "0.15.0",
+  "active": "B016",
+  "builds": [
+    "B001 Genesis","B002 Ecology","B003 Life","B004 Minds","B005 Society","B006 Settlement","B007 Economy","B008 Crafting & Engineering","B009 Knowledge","B010 Civilization","B011 Combat & Adventure","B012 Planetary Ecology","B013 World Expansion","B014 Integration","B015 Player Experience","B016 Content Factory","B017 Polish","B018 Alpha","B019 Release Candidate","B020 v1.0"
+  ]
+}

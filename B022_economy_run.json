@@ -1,0 +1,2464 @@
+{
+  "summary": {
+    "seed": 22022,
+    "agents": 104,
+    "settlements": [
+      {
+        "id": "river",
+        "adv": "food",
+        "pop": 38,
+        "food": 2028.725899899827,
+        "wood": 256.7441595806271,
+        "ore": 210.5500000000028,
+        "tools": 449.7492246620904
+      },
+      {
+        "id": "forest",
+        "adv": "wood",
+        "pop": 34,
+        "food": 37.99705662929499,
+        "wood": 2892.0487719992734,
+        "ore": 171.35000000000156,
+        "tools": 495.5351488280973
+      },
+      {
+        "id": "ridge",
+        "adv": "ore",
+        "pop": 32,
+        "food": 37.17147987269571,
+        "wood": 50.57035591833391,
+        "ore": 2601.2749999998423,
+        "tools": 465.01337485256715
+      }
+    ],
+    "roles": {
+      "river": {
+        "farmer": 24,
+        "crafter": 6,
+        "logger": 4,
+        "miner": 4
+      },
+      "forest": {
+        "farmer": 5,
+        "logger": 18,
+        "crafter": 8,
+        "miner": 3
+      },
+      "ridge": {
+        "farmer": 4,
+        "logger": 2,
+        "miner": 18,
+        "crafter": 8
+      }
+    },
+    "trade_events": 240,
+    "traded_commodities": [
+      "food",
+      "ore",
+      "tools",
+      "wood"
+    ]
+  },
+  "events": [
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 3,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 3,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 3,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 3,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 0.5
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 6,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 6,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 6,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 6,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 0.5
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 9,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 9,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 9,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 9,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 0.5
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 12,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 12,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 12,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 12,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 0.5
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 15,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 15,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 15,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 15,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 0.6
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 18,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 18,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 18,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 18,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 0.74
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 21,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 21,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 21,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 21,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 0.86
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 24,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 24,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 24,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 24,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 0.95
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 27,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 27,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 27,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 27,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.04
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 30,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 30,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 30,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 30,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.1
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 33,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 33,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 33,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 33,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.16
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 36,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 36,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 36,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 36,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.84
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 39,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 39,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 39,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 39,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.3
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 42,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 42,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 42,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 42,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.32
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 45,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 45,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 45,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 45,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.34
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 48,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 48,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 48,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 48,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.36
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 51,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 51,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 51,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 51,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 2.25
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 54,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 54,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 54,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 54,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.43
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 57,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 57,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 57,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 57,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.43
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 60,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 60,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 60,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 60,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.43
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 63,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 63,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 63,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 63,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.44
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 66,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 66,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 66,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 66,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 2.54
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 69,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 69,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 69,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 69,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.47
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 72,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 72,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 72,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 72,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.47
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 75,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 75,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 75,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 75,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.46
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 78,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 78,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 78,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 78,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.46
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 81,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 81,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 81,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 81,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 2.76
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 84,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 84,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 84,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 84,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.48
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 87,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 87,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 87,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 87,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.47
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 90,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 90,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 90,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 90,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.47
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 93,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 93,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 93,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 93,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.46
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 96,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 96,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 96,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 96,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 2.93
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 99,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 99,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 99,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 99,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.46
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 102,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 102,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 102,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 102,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.46
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 105,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 105,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 105,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 105,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.46
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 108,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 108,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 108,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 108,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.46
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 111,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 111,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 111,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 111,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 114,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 114,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 114,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 114,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 117,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 117,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 117,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 117,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 120,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 120,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 120,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 120,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 123,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 123,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 123,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 123,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 126,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 126,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 126,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 126,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 129,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 129,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 129,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 129,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 132,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 132,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 132,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 132,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 135,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 135,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 135,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 135,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 138,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 138,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 138,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 138,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 141,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 141,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 141,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 141,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 144,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 144,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 144,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 144,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 147,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 147,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 147,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 147,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 150,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 150,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 150,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 150,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 153,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 153,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 153,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 153,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 156,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 156,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 156,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 156,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 159,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 159,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 159,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 159,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 162,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 162,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 162,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 162,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 165,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 165,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 165,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 165,
+        "from": "forest",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 168,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 168,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 168,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 168,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.44
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 171,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 171,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 171,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 171,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.44
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 174,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 174,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 174,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 174,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 177,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 177,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 177,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 177,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 180,
+        "from": "river",
+        "to": "ridge",
+        "commodity": "food",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 180,
+        "from": "forest",
+        "to": "ridge",
+        "commodity": "wood",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 180,
+        "from": "ridge",
+        "to": "forest",
+        "commodity": "ore",
+        "sent": 3.0
+      }
+    },
+    {
+      "type": "TradeExecuted",
+      "payload": {
+        "day": 180,
+        "from": "ridge",
+        "to": "river",
+        "commodity": "tools",
+        "sent": 1.45
+      }
+    }
+  ]
+}

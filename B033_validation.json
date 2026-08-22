@@ -1,0 +1,6 @@
+{
+  "result": "PASS",
+  "required_artifacts": 6,
+  "missing": [],
+  "truth": "No human playtest evidence was available, so no playtest-derived bugs were invented."
+}

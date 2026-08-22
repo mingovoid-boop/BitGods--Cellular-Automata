@@ -1,0 +1,23 @@
+{
+  "product": "BitGods",
+  "version": "0.17.0-prealpha",
+  "build": "B017-Polish",
+  "baseline": "0.16.0-prealpha",
+  "status": "presentation-contract-baseline",
+  "pixelDNA": "1.1",
+  "simulationContract": "v1",
+  "implemented": [
+    "pixel DNA manifest",
+    "UI manifest",
+    "audio DNA manifest",
+    "accessibility manifest",
+    "visual QA specification"
+  ],
+  "not_verified": [
+    "runtime rendering integration",
+    "real sprite assets",
+    "audio assets",
+    "interactive UI runtime"
+  ],
+  "nextGate": "B018 Alpha Integration"
+}

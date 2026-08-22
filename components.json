@@ -1,0 +1,117 @@
+[
+  {
+    "id": "cell.material",
+    "name": "Material Cell",
+    "symbol": "\u25a0",
+    "ports": [],
+    "capabilities": [
+      "structure"
+    ]
+  },
+  {
+    "id": "cell.energy",
+    "name": "Energy Cell",
+    "symbol": "\u25c6",
+    "ports": [
+      "energy_out"
+    ],
+    "capabilities": [
+      "store_energy",
+      "transfer_energy"
+    ]
+  },
+  {
+    "id": "cell.logic",
+    "name": "Logic Cell",
+    "symbol": "\u2b21",
+    "ports": [
+      "signal_in",
+      "signal_out"
+    ],
+    "capabilities": [
+      "process_signal"
+    ]
+  },
+  {
+    "id": "cell.sensor",
+    "name": "Sensor Cell",
+    "symbol": "\u25c7",
+    "ports": [
+      "signal_out"
+    ],
+    "capabilities": [
+      "observe"
+    ]
+  },
+  {
+    "id": "cell.actuator",
+    "name": "Actuator Cell",
+    "symbol": "\u25b2",
+    "ports": [
+      "energy_in",
+      "signal_in"
+    ],
+    "capabilities": [
+      "perform_work"
+    ]
+  },
+  {
+    "id": "cell.storage",
+    "name": "Storage Cell",
+    "symbol": "\u25cf",
+    "ports": [
+      "matter_in",
+      "matter_out"
+    ],
+    "capabilities": [
+      "store"
+    ]
+  },
+  {
+    "id": "cell.connector",
+    "name": "Connector Cell",
+    "symbol": "\u256c",
+    "ports": [
+      "universal"
+    ],
+    "capabilities": [
+      "transfer"
+    ]
+  },
+  {
+    "id": "cell.fluid",
+    "name": "Fluid Cell",
+    "symbol": "\u2248",
+    "ports": [
+      "fluid_in",
+      "fluid_out"
+    ],
+    "capabilities": [
+      "transport_fluid"
+    ]
+  },
+  {
+    "id": "cell.communication",
+    "name": "Communication Cell",
+    "symbol": "\u25ce",
+    "ports": [
+      "signal_in",
+      "signal_out"
+    ],
+    "capabilities": [
+      "transmit_information"
+    ]
+  },
+  {
+    "id": "cell.exotic",
+    "name": "Exotic Cell",
+    "symbol": "\u2726",
+    "ports": [
+      "state"
+    ],
+    "capabilities": [
+      "exotic_rule"
+    ],
+    "classification": "fictional"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "build": "B032",
+  "required": [
+    {
+      "id": "launch",
+      "criterion": "client launch instructions and scripts exist",
+      "status": "PASS"
+    },
+    {
+      "id": "core_client",
+      "criterion": "B019 playable browser client retained",
+      "status": "PASS"
+    },
+    {
+      "id": "systems",
+      "criterion": "B020-B031 modules/artifacts retained",
+      "status": "PASS"
+    },
+    {
+      "id": "save_load",
+      "criterion": "save/load path exists in browser client",
+      "status": "PASS"
+    },
+    {
+      "id": "playtest_protocol",
+      "criterion": "30-60 minute route exists",
+      "status": "PASS"
+    },
+    {
+      "id": "bug_capture",
+      "criterion": "structured bug template exists",
+      "status": "PASS"
+    },
+    {
+      "id": "telemetry_capture",
+      "criterion": "structured playtest telemetry template exists",
+      "status": "PASS"
+    },
+    {
+      "id": "human_playtest",
+      "criterion": "real 30-60 minute human playtest completed",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "browser_runtime",
+      "criterion": "interactive runtime manually verified on target machine",
+      "status": "NOT_RUN"
+    }
+  ]
+}

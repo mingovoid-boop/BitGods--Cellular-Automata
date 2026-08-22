@@ -1,0 +1,34 @@
+{
+  "build": "B033",
+  "status": "AWAITING_HUMAN_PLAYTEST_EVIDENCE",
+  "priority_order": [
+    "P0 launch/crash/save corruption",
+    "P1 core loop blocked or controls unusable",
+    "P2 simulation visibly contradicts state",
+    "P3 major balance/performance/UI friction",
+    "P4 polish/content"
+  ],
+  "known_from_existing_truth_tables": [
+    {
+      "issue": "full B030 emergence chain not yet verified live in canvas",
+      "priority": "P1"
+    },
+    {
+      "issue": "B021-B027 contain headless/scenario proofs not full live bindings",
+      "priority": "P1"
+    },
+    {
+      "issue": "production pathfinding benchmark missing",
+      "priority": "P2"
+    },
+    {
+      "issue": "production art/audio incomplete",
+      "priority": "P4"
+    },
+    {
+      "issue": "human 30-60 minute playtest not run",
+      "priority": "BLOCKING_EVIDENCE"
+    }
+  ],
+  "rule": "Do not fabricate playtest findings. Promote issues only from reproducible runtime evidence."
+}

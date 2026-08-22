@@ -1,0 +1,10 @@
+{
+  "seed": 24024,
+  "regions": [
+    "river",
+    "forest",
+    "ridge"
+  ],
+  "external_polity": "Marsh Compact",
+  "stress_test": "severe_drought"
+}

@@ -1,0 +1,61 @@
+B022 MULTI-SETTLEMENT ECONOMY: PASS
+{
+  "seed": 22022,
+  "agents": 104,
+  "settlements": [
+    {
+      "id": "river",
+      "adv": "food",
+      "pop": 38,
+      "food": 2028.725899899827,
+      "wood": 256.7441595806271,
+      "ore": 210.5500000000028,
+      "tools": 449.7492246620904
+    },
+    {
+      "id": "forest",
+      "adv": "wood",
+      "pop": 34,
+      "food": 37.99705662929499,
+      "wood": 2892.0487719992734,
+      "ore": 171.35000000000156,
+      "tools": 495.5351488280973
+    },
+    {
+      "id": "ridge",
+      "adv": "ore",
+      "pop": 32,
+      "food": 37.17147987269571,
+      "wood": 50.57035591833391,
+      "ore": 2601.2749999998423,
+      "tools": 465.01337485256715
+    }
+  ],
+  "roles": {
+    "river": {
+      "farmer": 24,
+      "crafter": 6,
+      "logger": 4,
+      "miner": 4
+    },
+    "forest": {
+      "farmer": 5,
+      "logger": 18,
+      "crafter": 8,
+      "miner": 3
+    },
+    "ridge": {
+      "farmer": 4,
+      "logger": 2,
+      "miner": 18,
+      "crafter": 8
+    }
+  },
+  "trade_events": 240,
+  "traded_commodities": [
+    "food",
+    "ore",
+    "tools",
+    "wood"
+  ]
+}

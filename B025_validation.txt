@@ -1,0 +1,7 @@
+B025 WAR / MIGRATION / HISTORICAL CONSEQUENCE: PASS
+{
+  "logistics_effect_verified": true,
+  "migration_verified": true,
+  "historical_residue_verified": true,
+  "political_fracture_occurred": true
+}

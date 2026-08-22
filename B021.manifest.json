@@ -1,0 +1,24 @@
+{
+  "product": "BitGods",
+  "version": "0.21.0-prealpha",
+  "build": "B021-EmergentSettlement",
+  "baseline": "0.20.0-prealpha",
+  "status": "headless-emergence-gate-verified",
+  "verified": [
+    "resource memory",
+    "knowledge sharing",
+    "shared storage",
+    "shelter construction",
+    "farm construction",
+    "food production",
+    "activity-derived roles",
+    "state-derived settlement detection"
+  ],
+  "not_verified": [
+    "full canvas binding",
+    "robust pathfinding",
+    "multi-settlement competition",
+    "large-scale population"
+  ],
+  "nextGate": "B022 Multi-Settlement Economy & Civilization"
+}

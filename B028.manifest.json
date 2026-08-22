@@ -1,0 +1,29 @@
+{
+  "product": "BitGods",
+  "version": "0.28.0-prealpha",
+  "build": "B028-RuntimeUnification",
+  "status": "browser-integration-adapter",
+  "implemented": [
+    "unified system registry",
+    "avatar/architect/god mode switch",
+    "deep-inspector contract",
+    "DNA scan/edit adapter",
+    "timeline fork adapter",
+    "settlement registry",
+    "history/event adapter",
+    "browser persistence hook"
+  ],
+  "preserved": [
+    "B019 playable browser client",
+    "B020 autonomous module",
+    "B021-B027 verified scenario artifacts"
+  ],
+  "not_verified": [
+    "all headless systems executing simultaneously in canvas",
+    "production-scale agent simulation",
+    "full visual overlays",
+    "runtime audio",
+    "native desktop package"
+  ],
+  "nextGate": "B029 Canvas Simulation Integration"
+}

@@ -1,0 +1,16 @@
+{
+  "world_seed_contract": "VERIFIED_HEADLESS",
+  "authoritative_world_state": "VERIFIED_HEADLESS",
+  "resource_gathering": "VERIFIED_HEADLESS",
+  "cellular_machine_record": "VERIFIED_HEADLESS",
+  "agent_problem_to_quest": "VERIFIED_HEADLESS",
+  "causal_loot": "VERIFIED_HEADLESS",
+  "save_reload_integrity": "VERIFIED_HEADLESS",
+  "graphical_world": "PLANNED",
+  "player_controls": "PLANNED",
+  "sprite_rendering": "PLANNED",
+  "audio_runtime": "PLANNED",
+  "full_agent_ai": "PLANNED",
+  "combat_runtime": "PLANNED",
+  "large_scale_simulation": "PLANNED"
+}

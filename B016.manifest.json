@@ -1,0 +1,17 @@
+{
+  "product": "BitGods",
+  "version": "0.16.0-prealpha",
+  "build": "B016-ContentFactory",
+  "baseline": "v0.15",
+  "status": "structured-content-baseline",
+  "simulationContract": "v1",
+  "pixelDNA": "v1",
+  "activeGate": "B016",
+  "nextGate": "B017 Polish",
+  "generatedAt": "2026-08-21",
+  "truthLabels": {
+    "implemented": "bundle structure and seed catalogs",
+    "verified": "static catalog validator only",
+    "not_verified": "game runtime integration"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "product": "BitGods",
+  "version": "0.24.0-prealpha",
+  "build": "B024-GovernmentLawCultureDiplomacy",
+  "status": "governance-contract-scenario-verified",
+  "verified": [
+    "coordination-pressure institutions",
+    "government detection",
+    "taxation/public spending",
+    "law records/enforcement",
+    "faction leadership event",
+    "multidimensional culture",
+    "diplomatic treaty",
+    "crisis outcome"
+  ],
+  "limitations": [
+    "scenario-level proof; not autonomous agent political simulation",
+    "aggregate law enforcement",
+    "not canvas-bound"
+  ],
+  "nextGate": "B025 War Migration Collapse Historical Succession"
+}

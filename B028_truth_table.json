@@ -1,0 +1,14 @@
+{
+  "visible_browser_client": "PRESENT_FROM_B019",
+  "movement_gather_crafting_save_load": "PRESENT_FROM_B019",
+  "agent_needs_memory_module": "PRESENT_FROM_B020",
+  "settlement_emergence": "VERIFIED_HEADLESS_B021",
+  "multi_settlement_economy": "VERIFIED_HEADLESS_B022",
+  "civilization_emergence": "VERIFIED_HEADLESS_B023",
+  "governance_contract": "VERIFIED_SCENARIO_B024",
+  "war_migration_history": "VERIFIED_HEADLESS_B025",
+  "science_genetics_quantum": "VERIFIED_HEADLESS_B026",
+  "godmode_timeline_fork": "VERIFIED_HEADLESS_B027",
+  "unified_browser_adapter": "PRESENT_B028",
+  "all_systems_live_in_one_canvas": "NOT_YET_VERIFIED"
+}

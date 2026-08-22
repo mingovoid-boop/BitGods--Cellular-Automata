@@ -1,0 +1,26 @@
+{
+  "semantic_cells": {
+    "material": "knock/click",
+    "energy": "pulse",
+    "logic": "tick",
+    "sensor": "ping",
+    "actuator": "mechanical snap",
+    "exotic": "unstable harmonic texture"
+  },
+  "buses": [
+    "master",
+    "music",
+    "ambience",
+    "ui",
+    "effects",
+    "voice"
+  ],
+  "dynamic_layers": [
+    "biome",
+    "weather",
+    "settlement_density",
+    "conflict",
+    "discovery",
+    "exotic"
+  ]
+}

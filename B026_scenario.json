@@ -1,0 +1,15 @@
+{
+  "seed": 26026,
+  "progression": [
+    "observation",
+    "hypothesis",
+    "experiment",
+    "knowledge",
+    "microscope",
+    "dna_reader",
+    "dna_writer",
+    "atomic_inspector",
+    "quantum_lab",
+    "exotic_branch"
+  ]
+}

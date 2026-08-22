@@ -1,0 +1,92 @@
+B030 LIVING WORLD INTEGRATION: PASS
+{
+  "seed": 30030,
+  "days": 720,
+  "living_agents": 48,
+  "births": 12,
+  "deaths": 0,
+  "storage": {
+    "x": 10,
+    "y": 7,
+    "food": 75,
+    "wood": 7
+  },
+  "structures": [
+    {
+      "type": "shelter",
+      "x": 9,
+      "y": 7
+    },
+    {
+      "type": "shelter",
+      "x": 10,
+      "y": 7
+    },
+    {
+      "type": "shelter",
+      "x": 11,
+      "y": 7
+    },
+    {
+      "type": "shelter",
+      "x": 9,
+      "y": 8
+    },
+    {
+      "type": "shelter",
+      "x": 10,
+      "y": 8
+    },
+    {
+      "type": "shelter",
+      "x": 11,
+      "y": 8
+    },
+    {
+      "type": "farm",
+      "x": 8,
+      "y": 9
+    },
+    {
+      "type": "shelter",
+      "x": 10,
+      "y": 9
+    },
+    {
+      "type": "farm",
+      "x": 9,
+      "y": 9
+    },
+    {
+      "type": "shelter",
+      "x": 9,
+      "y": 10
+    },
+    {
+      "type": "farm",
+      "x": 10,
+      "y": 9
+    },
+    {
+      "type": "farm",
+      "x": 11,
+      "y": 9
+    }
+  ],
+  "settlement_detected": true,
+  "civilization_seed_detected": true,
+  "event_count": 1413,
+  "event_types": [
+    "AgentAte",
+    "AgentAteSharedFood",
+    "AgentBorn",
+    "CivilizationSeedDetected",
+    "EcologyRegrowth",
+    "FarmBuilt",
+    "FarmProduced",
+    "ResourceGathered",
+    "ResourceStored",
+    "SettlementDetected",
+    "ShelterBuilt"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "product": "BitGods",
+  "version": "0.18.0-prealpha",
+  "build": "B018-AlphaIntegration",
+  "baseline": "0.17.0-prealpha",
+  "simulationContract": "v1",
+  "pixelDNA": "1.1",
+  "status": "headless-vertical-slice-verified",
+  "verified": [
+    "seeded state",
+    "gather mutation",
+    "machine record",
+    "agent problem/quest",
+    "causal loot",
+    "save/reload hash"
+  ],
+  "planned": [
+    "graphical runtime",
+    "controls",
+    "full AI",
+    "combat",
+    "audio",
+    "scale"
+  ],
+  "nextGate": "B019 Runtime Client"
+}

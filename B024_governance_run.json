@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "seed": 24024,
+    "government_detected": true,
+    "institutions": {
+      "water_board": {
+        "capacity": 0.61
+      },
+      "trade_court": {
+        "capacity": 0.59
+      },
+      "defense_council": {
+        "capacity": 0.56
+      },
+      "assembly": {
+        "capacity": 0.53
+      }
+    },
+    "laws": [
+      {
+        "id": "law.water_priority",
+        "enforcement": 0.58
+      },
+      {
+        "id": "law.contract",
+        "enforcement": 0.62
+      }
+    ],
+    "legitimacy": 0.63,
+    "culture_vectors": {
+      "river": {
+        "language": 0.86,
+        "regional_identity": 0.81,
+        "institutional_trust": 0.64
+      },
+      "forest": {
+        "language": 0.86,
+        "regional_identity": 0.77,
+        "institutional_trust": 0.62
+      },
+      "ridge": {
+        "language": 0.86,
+        "regional_identity": 0.84,
+        "institutional_trust": 0.6
+      }
+    },
+    "neighbor": {
+      "name": "Marsh Compact",
+      "trust": 0.52,
+      "trade_dependency": 0.61
+    },
+    "crisis_survived": true,
+    "event_count": 12
+  },
+  "events": [
+    {
+      "type": "InstitutionEmergent",
+      "cause": "water_disputes"
+    },
+    {
+      "type": "InstitutionEmergent",
+      "cause": "trade_disputes"
+    },
+    {
+      "type": "InstitutionEmergent",
+      "cause": "border_raids"
+    },
+    {
+      "type": "GovernmentDetected",
+      "form": "council_assembly"
+    },
+    {
+      "type": "TaxCollected",
+      "amount": 27.4
+    },
+    {
+      "type": "PublicSpending",
+      "domain": "water",
+      "amount": 12
+    },
+    {
+      "type": "LawEnacted",
+      "law": "law.water_priority"
+    },
+    {
+      "type": "LawEnacted",
+      "law": "law.contract"
+    },
+    {
+      "type": "LeaderSelected",
+      "coalition": "merchants"
+    },
+    {
+      "type": "TreatySigned",
+      "with": "Marsh Compact",
+      "type2": "trade_and_border"
+    },
+    {
+      "type": "PoliticalCrisis",
+      "crisis": "severe_drought"
+    },
+    {
+      "type": "GovernmentSurvivedCrisis",
+      "legitimacy": 0.63
+    }
+  ]
+}

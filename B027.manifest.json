@@ -1,0 +1,22 @@
+{
+  "product": "BitGods",
+  "version": "0.27.0-prealpha",
+  "build": "B027-GodModeTimelineForks",
+  "status": "headless-counterfactual-gate-verified",
+  "verified": [
+    "deterministic timeline fork",
+    "intervention cost record",
+    "secondary consequence",
+    "branch comparison",
+    "causal trace",
+    "macro-to-cell inspector contract",
+    "17 overlay domains"
+  ],
+  "limitations": [
+    "headless counterfactual model",
+    "no timeline scrubber UI yet",
+    "no snapshot storage optimization",
+    "quantum overlay is registry-only"
+  ],
+  "nextGate": "B028 Runtime Unification & Visual Binding"
+}

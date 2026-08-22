@@ -1,0 +1,10 @@
+{
+  "seed": 25025,
+  "duration_months": 24,
+  "belligerents": [
+    "River Union",
+    "Marsh Compact"
+  ],
+  "strategic_resource": "iron",
+  "critical_logistics_node": "Iron Bridge"
+}
