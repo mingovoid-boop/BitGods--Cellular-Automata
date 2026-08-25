@@ -18,10 +18,12 @@ B001 Genesis → B002 Ecology → B003 Life → B004 Minds → B005 Society → 
 
 ## Core law
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ca6ac1e3-f33e-460c-b611-491923975cd1/deploy-status)](https://app.netlify.com/projects/bitgods/deploys)
 State has an owner. Actions require capabilities. Change occurs through transformations. Important changes emit causal events. Knowledge is not global. Resources do not teleport. Rendering does not define simulation truth.
 
 ## v0.16 update
 B016 Content Factory is now structurally instantiated with domain catalogs, a content index, a B016 manifest, acceptance gate and static validator.
 
 This bundle does **not** claim runtime gameplay integration. The next production gate is B017 Polish after representative content is integrated and playtested.
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ca6ac1e3-f33e-460c-b611-491923975cd1/deploy-status)](https://app.netlify.com/projects/bitgods/deploys)
