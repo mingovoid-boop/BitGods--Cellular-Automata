@@ -17,6 +17,8 @@ B014 Integration is the architecture freeze point. B015 defines player experienc
 B001 Genesis → B002 Ecology → B003 Life → B004 Minds → B005 Society → B006 Settlement → B007 Economy → B008 Crafting/Engineering → B009 Knowledge → B010 Civilization → B011 Combat/Adventure → B012 Planetary Ecology → B013 World Expansion → B014 Integration → B015 Player Experience → B016 Content Factory → B017 Polish → B018 Alpha → B019 RC → B020 v1.0.
 
 ## Core law
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ca6ac1e3-f33e-460c-b611-491923975cd1/deploy-status)](https://app.netlify.com/projects/bitgods/deploys)
 State has an owner. Actions require capabilities. Change occurs through transformations. Important changes emit causal events. Knowledge is not global. Resources do not teleport. Rendering does not define simulation truth.
 
 ## v0.16 update
