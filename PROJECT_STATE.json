@@ -1,0 +1,12 @@
+{
+  "version": "77.1.0",
+  "status": "32/32 DETERMINISTIC RUNTIME GATES PASS / DEVICE VISUAL QA REQUIRED",
+  "basis": "77.0 Deterministic Dungeon Run Integrity",
+  "overhaul": {
+    "replaced": ["Floating enemy target popup", "Non-interactive release checklist", "Equal-weight player and NPC sprite presentation", "Missing tacticalCallout combat helper"],
+    "authoritative": ["Enemy click still targets, approaches and attacks without mounting a floating panel", "QA checklist closes, persists its state and exposes a compact reopen control", "CHARACTER_SCALE owns player, NPC and NPC hit-target proportions"],
+    "measurable": ["Player render scale 0.78", "NPC render scale 1.28", "NPC hit radius 1.15 tiles", "23 in-game system boundaries", "32/32 deterministic runtime tests pass"]
+  },
+  "remaining_risks": ["Target Android/WebView scale and touch-target inspection still required", "Sustained frame-rate, WebAudio and resume behavior need physical-device testing"],
+  "next_overhaul_target": "Confirm the new player/NPC proportions on the target phone before further visual scaling."
+}

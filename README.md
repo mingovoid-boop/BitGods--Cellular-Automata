@@ -1,6 +1,27 @@
-# BitGods Development Bundle v0.15
+# BitGods 77.1
 
-This bundle turns the current BitGods design into a structured implementation package.
+The current root build is a self-contained offline HTML RPG. Open `START_HERE.html` or `index.html` directly—no install, server, or internet connection is required.
+
+## Current playable
+
+- Click/tap terrain to move.
+- Click/tap an enemy to target, approach, and attack without opening a floating target card.
+- Use the compact action bar for attacks, weapon abilities, skills, dodge, interactions, gear, and world navigation.
+- Close the in-game QA checklist with **X**; reopen it from the compact **QA** button.
+- Player rendering is reduced to 78%; NPC rendering is enlarged to 128% with matching interaction bounds.
+- Deterministic dungeon, combat, NPC routing/trading, item, progression, atmosphere, and recovery-save systems are retained from 77.0.
+
+Run the release verification with:
+
+```bash
+node verify-runtime.cjs
+```
+
+Current automated status: **32/32 checks pass**. Physical Android visual, touch, audio, heat, and sustained-frame-rate checks are still required.
+
+## Development archive
+
+The remaining B-series files preserve the earlier structured design and simulation package.
 
 ## Active gate
 B014 Integration is the architecture freeze point. B015 defines player experience. B016 Content Factory is next.
@@ -23,7 +44,7 @@ State has an owner. Actions require capabilities. Change occurs through transfor
 ## v0.16 update
 B016 Content Factory is now structurally instantiated with domain catalogs, a content index, a B016 manifest, acceptance gate and static validator.
 
-This bundle does **not** claim runtime gameplay integration. The next production gate is B017 Polish after representative content is integrated and playtested.
+This historical section did **not** claim runtime gameplay integration; the root 77.1 build above is now the playable runtime.
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ca6ac1e3-f33e-460c-b611-491923975cd1/deploy-status)](https://app.netlify.com/projects/bitgods/deploys)
