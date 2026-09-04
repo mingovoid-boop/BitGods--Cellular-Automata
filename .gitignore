@@ -1,0 +1,25 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node and test output
+node_modules/
+coverage/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local packages and temporary files
+*.zip
+*.tmp
+*.bak

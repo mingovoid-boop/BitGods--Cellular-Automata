@@ -1,5 +1,7 @@
 # BitGods 75.0 — Release Integrity + RPG Interface
 
+> Repository maintenance on 2026-09-04 moved the B016-B034 build history and retired prototypes into a documented `archive/` hierarchy. The deployed 77.1 game files remain byte-for-byte unchanged.
+
 Added a unified RPG click/tap interaction model: terrain moves, NPCs are approached and engaged, and enemies are targeted, approached to weapon range, and attacked. Added a seven-slot desktop hotbar, compact five-slot mobile bar, target panel, keyboard controls, optional mobile joystick, and accessible Settings tab.
 
 Established the Ancient Circuitry brand: basalt panels, bone text, oxidized iron, relic gold, ember combat cues, signal-cyan magic, geometric BitGods mark, and a rebuilt launch screen.
