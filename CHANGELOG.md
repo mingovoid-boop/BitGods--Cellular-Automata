@@ -1,6 +1,34 @@
-# BitGods 75.0 — Release Integrity + RPG Interface
+# BitGods changelog
 
 > Repository maintenance on 2026-09-04 moved the B016-B034 build history and retired prototypes into a documented `archive/` hierarchy. The deployed 77.1 game files remain byte-for-byte unchanged.
+
+For the original B001-B034 lineage, known modern checkpoints, evidence gaps, and package hashes, see [`VERSION_HISTORY.md`](VERSION_HISTORY.md).
+
+## 67 — Canonical Persistence Recovery Overhaul
+
+- Established the documented persistence/recovery lineage later inherited by the modern playable builds.
+- Standalone source and package are not present in the current repository; this entry is reconstructed from preserved project records.
+
+## 72 — Open World Civilization Network
+
+- Established the canonical source basis used by 73.0.
+- Standalone source and package are not present in the current repository; its role is confirmed by the 73.0 project state.
+
+## 73.0.0 — Item + Progression Overhaul
+
+- Consolidated inventory, equipment, salvage, crafting, market, and forge changes under `ITEM_LEDGER`.
+- Consolidated XP, levels, skill points, and mastery under `PROGRESSION_CORE`.
+- Added migration-safe progression counters and unique item-ID integrity checks.
+- Passed 20/20 static architecture gates; device runtime QA remained required.
+
+## 74.0.0 — Settlement Identity + Cutaway Architecture
+
+- Added articulated NPC arms, clothing, accessories, and profession-specific identities.
+- Added role-specific two-way NPC trading.
+- Reworked buildings around Solid, Smart, and Cutaway roof modes with contextual interior presentation.
+- Passed static gates; device perspective and room-readability QA remained required.
+
+## 75.0.0 — Release Integrity + RPG Interface
 
 Added a unified RPG click/tap interaction model: terrain moves, NPCs are approached and engaged, and enemies are targeted, approached to weapon range, and attacked. Added a seven-slot desktop hotbar, compact five-slot mobile bar, target panel, keyboard controls, optional mobile joystick, and accessible Settings tab.
 
@@ -19,7 +47,7 @@ Added direct two-way trading with every NPC. Personal stock reflects each reside
 Reworked buildings into an elevated three-quarter/cutaway presentation. Solid preserves the exterior silhouette, Smart reveals rooms near the player, and Cutaway keeps interiors visible. Interacting at a door enters/leaves a highlighted room view. ROOF is available on mobile; R cycles modes on keyboard.
 
 Preserved the canonical item ledger, progression core, renderer, game loop, input router, UI system, combat core and save/apply pipeline.
-# 76.0.0 — Atmosphere + Combat Presentation Quality
+## 76.0.0 — Atmosphere + Combat Presentation Quality
 
 - Consolidated regional tint, time-of-day, weather, ambient motion and performance scaling into one `ATMOSPHERE_SYSTEM`.
 - Added persistent Low / Balanced / Full world-atmosphere control with adaptive caps of 4 / 9 / 16 ambient elements.
@@ -29,7 +57,7 @@ Preserved the canonical item ledger, progression core, renderer, game loop, inpu
 - Added family-specific slash width and arc language, including spear thrusts, axe weight, hammer impact and scythe sweep.
 - Fixed canonical equipped-weapon lookup and the missing combat distance helper uncovered by the new gates.
 - Expanded deterministic validation to 25 tests; all pass.
-# 77.0.0 — Deterministic Dungeon Run Integrity
+## 77.0.0 — Deterministic Dungeon Run Integrity
 
 - Added authoritative `DUNGEON_RUN` generation, validation, fingerprint and resume boundaries.
 - Fixed Fractured Vault entrances that could land outside the first room.
@@ -38,7 +66,7 @@ Preserved the canonical item ledger, progression core, renderer, game loop, inpu
 - Added deterministic same-seed replay tests and a 120-seed layout-entry sweep.
 - Expanded the full runtime suite to 28 passing gates.
 
-# 77.1.0 — Interface Clarity + Character Scale
+## 77.1.0 — Interface Clarity + Character Scale
 
 - Removed the separate floating enemy target panel; click/tap targeting, approach and auto-attack behavior remain intact.
 - Added a touch-safe close button to the release checklist and a compact QA control that reopens it.

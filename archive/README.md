@@ -2,6 +2,8 @@
 
 This directory preserves material from the earlier B-series architecture and simulation work. It remains available for research and future extraction, but it is not part of the current 77.1 runtime.
 
+See [`../VERSION_HISTORY.md`](../VERSION_HISTORY.md) for the complete evidence-labeled chronology across the original build train and modern playable releases.
+
 ## Contents
 
 - `build-history/` — B016 through B034 manifests, design notes, validation outputs, scenarios, and run evidence.

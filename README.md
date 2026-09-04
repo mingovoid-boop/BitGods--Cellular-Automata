@@ -37,6 +37,7 @@ The verifier covers boot evaluation, core-system ownership, world update/render,
 | `PROJECT_STATE.json` | Machine-readable current release state |
 | `QUALITY_GATE.md` | Current evidence and remaining device gates |
 | `CHANGELOG.md` | Release history |
+| `VERSION_HISTORY.md` | Complete evidence-labeled version index |
 | `archive/` | Preserved B016-B034 development history and retired prototypes |
 
 The current runtime is intentionally self-contained. Files under `archive/` are reference material and are not loaded by the game.
